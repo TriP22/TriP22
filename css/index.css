@@ -38,6 +38,24 @@ body{
     width: 56px;
 }
 
+.lato-24-900-ffffff{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.lato-19-ffffff-o{
+    opacity: 0.84;
+    font-family: Lato;
+    font-size: 19px;
+    color: #ffffff;
+}
+.lato-19-bold-ffffff{
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+}
 
 /* footer */
 .home-footer{
