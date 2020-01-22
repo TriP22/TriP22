@@ -85,6 +85,37 @@ body{
     font-weight: bold;
     color: #ffffff;
 }
+.lato-21-bold-f84b0f{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: bold;
+    color: #f84b0f;
+}
+.difficulty{
+    background-color: #ebedf8;
+    border-radius: 3px;
+}
+.difficulty-bar-easy{
+    background-color: #62cf6e;
+    border-radius: 3px;
+}
+.lato-12-bold-eeeeee{
+    margin: auto;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eeeeee;
+}
+.lato-14-ff8a00{
+    font-family: Lato;
+    font-size: 14px;
+    color: #ff8a00;
+}
+.lato-14-323c47{
+    font-family: Lato;
+    font-size: 14px;
+    color: #323c47;
+  }
 
 /* footer */
 .home-footer{
