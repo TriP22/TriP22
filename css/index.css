@@ -38,6 +38,84 @@ body{
     width: 56px;
 }
 
+.lato-24-900-ffffff{
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.lato-19-ffffff-o{
+    opacity: 0.84;
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+}
+.lato-19-bold-ffffff{
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.lato-24-900-323c47{
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #323c47;
+}
+.lato-18-600-323c47{
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #323c47;
+}
+.lato-18-600-f84b0f{
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f84b0f;
+}
+.lato-24-506071-58{
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    color: rgba(50, 60, 71, 0.58);
+}
+.lato-14-bold-ffffff{
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.lato-21-bold-f84b0f{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: bold;
+    color: #f84b0f;
+}
+.difficulty{
+    background-color: #ebedf8;
+    border-radius: 3px;
+}
+.difficulty-bar-easy{
+    background-color: #62cf6e;
+    border-radius: 3px;
+}
+.lato-12-bold-eeeeee{
+    margin: auto;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eeeeee;
+}
+.lato-14-ff8a00{
+    font-family: Lato;
+    font-size: 14px;
+    color: #ff8a00;
+}
+.lato-14-323c47{
+    font-family: Lato;
+    font-size: 14px;
+    color: #323c47;
+  }
 
 /* footer */
 .home-footer{
