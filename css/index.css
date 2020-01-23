@@ -115,7 +115,16 @@ body{
     font-family: Lato;
     font-size: 14px;
     color: #323c47;
-  }
+}
+.circle-left-button{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+    background-color: #ffffff;
+}
+
+
 
 /* footer */
 .home-footer{
