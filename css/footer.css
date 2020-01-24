@@ -1,0 +1,27 @@
+.th-lato{
+    width: 95px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #516378;
+}
+
+/* font-family */
+.th-lato{
+    font-family: 'Lato', sans-serif;
+}
+
+/* font-weight */
+.th-bold{
+    font-weight: bold;
+}
+
+/* font-size */
+.th-14{
+    font-size: 14px;
+}
+
+/* font-color */
+.th-grey{
+    color: #516378;
+}
