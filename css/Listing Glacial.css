@@ -9,7 +9,7 @@ body{
     background-color: #ffffff;
   }
 
-  .-Years-in-Travel {
+  .Years-in-Travel {
     width: 140px;
     height: 32px;
     font-family: Roboto;
@@ -27,7 +27,7 @@ body{
     background-color: #323c47;
   }
 
-  .-Happy-customer {
+  .Happy-customer {
     width: 140px;
     height: 32px;
     font-family: Roboto;
@@ -40,7 +40,7 @@ body{
     color: #516378;
   }
 
-  .-Trained-Profess {
+  .Trained-Profess {
     width: 140px;
     height: 32px;
     font-family: Roboto;
@@ -126,7 +126,6 @@ body{
     letter-spacing: normal;
     color: #323c47;
     padding-top: 8px;
-    padding-left: 35px;
   }
 
   .Rectang{
@@ -135,6 +134,8 @@ body{
     border-radius: 3px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     font-size: 12px;
   }
   .greytext{
@@ -143,7 +144,6 @@ body{
 
   .volvo{
     padding-top: 7px;
-    margin-left: 33px;
     color: grey;
   }
   
@@ -172,6 +172,7 @@ body{
   }
   .nd{
     font-size: 14px;
+    padding-top: 18px;
   }
   
   .text15{
