@@ -161,8 +161,8 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     background-size: cover;
     border-radius:3px 3px 0px 0px;
     background-repeat: no-repeat;
-    height: 100px;
-    width: 60%;
+    height: 110px;
+    width: 85%;
 }
 
 
@@ -308,4 +308,28 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.th-hotel-card-subhead{
+    color: #516378;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.th-hotel-card-label{
+    color: #516378;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.th-hotel-card-value{
+    color: #323c47;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
 }
