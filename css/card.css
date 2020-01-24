@@ -1,0 +1,290 @@
+.th-card{
+    display: flex;
+    float: left;
+}
+.th-card-body-bestseller{
+     margin-right: 0.5rem;
+     margin-left: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    display: block;
+    position: relative;
+    height: 220px;
+    
+}
+.th-card-img
+{
+    background-position: center;
+    background-size: cover;
+    border-radius:5px;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+.th-card-bestseller{
+    right: 0;
+    margin-top: 6px;
+    margin-right: 8px;
+    height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 9px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #f7ba44;
+}
+:focus{outline: none !important;}
+.th-card-a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 14px;
+    margin-top: -15px;
+}
+.th-card-price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #868ef5;
+    font-size: 32px;
+    line-height: 36px;
+}
+.th-card-offer{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+
+
+
+.th-card-type-3{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    position: relative;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    
+}
+
+.th-card-type-3 .th-card-ribbon{
+    right: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 9px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+
+}
+.th-card-type-3 .th-card-data-img{
+    background-position: center;
+    background-size: cover;
+    border-radius:3px 3px 0px 0px;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+.th-card-type-3 .th-card-data .th-card-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #323c47;
+    font-size: 16px;
+    display: block;
+
+}
+
+.th-card-type-3 .th-card-data .th-card-sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #516378;
+    font-size: 14px;
+    display: block;
+
+}
+
+.th-card-type-3 .th-card-data .th-card-extra-sub-title{
+    color:#3996ff;
+}
+.th-card-type-3 .th-card-data .th-card-sub-title-1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #323c47;
+    font-size: 12px;
+    display: block;
+
+}
+
+.th-card-type-3 .th-card-data .th-card-price{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #323c47;
+    font-size: 15px;
+    line-height: 32px;
+
+}
+.th-card-type-3 .th-card-data .th-card-pp{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #516378;
+    font-size: 12px;
+
+}
+.th-card-type-3 .th-card-data .th-card-price-saved{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #ff8a00;
+    font-size: 12px;
+    display: block;
+
+}
+.th-card-type-3 .th-card-data .th-card-price-strike{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #516378;
+    font-size: 14px;
+    display: block;
+    text-decoration: line-through;
+    line-height: 32px;
+}
+
+.slick-next::before {
+    content: '\203A' !important; color: #000e !important;
+}
+.slick-prev:before {
+    content: '\2039' !important; color: #000 !important;
+}
+
+
+
+.th-card-promotion2{
+    background-position: center;
+    background-size: cover;
+    border-radius:5px;
+    background-repeat: no-repeat;
+    height: 25vh;
+    
+}
+.th-card-promotion-grad{
+    border-radius:5px;
+    height: 25vh;
+    background: linear-gradient(90deg,  RGB(23, 32, 42,0.2), RGB(23, 32, 42,0.9));
+}
+
+.th-card-promotion-grad1{
+    border-radius:5px;
+    height: 25vh;
+    background: linear-gradient(180deg,  RGB(23, 32, 42,0.2), RGB(23, 32, 42,0.9));
+}
+
+
+.th-card-promotion2-title{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px; 
+    display: block;
+    text-transform: uppercase;
+}
+.th-card-promotion2-ribbon{
+    right: 0;
+    margin-right: 8px;
+    height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+}
+
+.th-card-promotion2-justin{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px; 
+    display: block;
+    position: absolute;
+    bottom:35px;
+    margin-left: 8px;
+}
+.th-card-promotion2-price{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 28px; 
+    display: block;
+    text-transform: uppercase; 
+    position: absolute;
+    bottom:0;
+    margin-left: 8px;
+    
+}
+
+
+.th-card-type-4{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    position: relative;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    
+}
+
+.th-card-type-4 .th-card-ribbon{
+    right: 0;
+    margin-top: 8px;
+    margin-right: 8px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 9px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+    z-index: 10000;
+
+}
+.th-card-type-4 .th-card-data-img{
+    background-position: center;
+    background-size: cover;
+    border-radius:3px 3px 3px 3px;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
