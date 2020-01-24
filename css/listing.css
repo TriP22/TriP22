@@ -128,8 +128,8 @@ body{
     padding-top: 8px;
   }
 
-  .Rectang{
-    background-color: rgb(223, 223, 223);
+  .tag{
+    background-color:#ebedf8;
     height: 20px;
     border-radius: 3px;
     padding-left: 10px;
@@ -148,7 +148,7 @@ body{
   }
   
   .off{
-    background-color: rgb(61, 61, 243);
+    background-color:#3996ff;
     height: 20px;
     font-size: 13px;
     color: white;
