@@ -1,0 +1,311 @@
+.th-card-header{
+    font-size: 24px;
+    color: #323c47;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+button:focus, button:active,input:focus{box-shadow:none !important;outline:none;}
+.form-control:focus{ box-shadow:none !important;}
+.btn.focus, .btn:focus {box-shadow:none !important;}
+
+.th-detailpage-head{
+    color: #323c47;
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.th-card-type{
+    display: block;
+    position: relative;
+    width: 100vw;
+    border: 0px solid transparent;
+    border-radius: 3px;
+}
+.th-detail-card-places{
+    font-family: 'Lato', sans-serif;
+   font-weight: 900;
+   color: #516378;
+   display: block;
+   font-size: 16px;
+   line-height: 20px;
+}
+.th-detail-card-content{
+    font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   color: #516378;
+   display: block;
+   font-size: 14px;
+}
+
+
+.th-dot-red{
+   color:#FA350B;
+}
+
+.th-detail-view-more{
+   color: #f84b0f;
+   font-size: 12px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.th-detail-expand-all{
+   color: #f84b0f;
+   font-size: 14px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.th-detail-view-more :hover{
+   color: #f84b0f;
+   text-decoration: none;
+}
+.th-detail-view-more-arrow{
+   font-weight: 900;
+}
+
+.th-trip-itenary{
+    color: #f84b0f;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.th-trip-itinerary-city{
+    color: #f84b0f;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border: none;
+    
+}
+
+.th-trip-itinerary-city:hover{
+   color: #f84b0f;
+   text-decoration: none;
+}
+
+.th-trip-itinerary-body{
+    border-radius: 6px;
+    background-color: #fafbfb;
+    
+}
+.th-trip-itinerary-icon i{
+    font-weight: 900;
+    color: #323c47;
+}
+.collapsed .th-trip-itinerary-icon{
+    transform:rotate(180deg) !important;
+}
+
+.th-trip-itinerary-head{
+    color: #323c47;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.th-trip-itinerary-content{
+    color: #516378;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+
+.th-add-activity-btn{
+   color: #f84b0f;
+   font-size: 12px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   border: 1px solid #f84b0f;
+   background-color: white;
+   border-radius: 2px;
+    
+}
+
+.th-detailpage-subhead{
+    
+    color: #323c47;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.th-budget-head{
+    color:#323c47;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    display: block;
+}
+.th-budget-package-price{
+    color:#f84b0f;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+}
+.th-budget-pack-cost-strike{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #516378;
+    font-size: 12px;
+    text-decoration: line-through;
+    line-height: 10px;
+}
+.th-detail-budget-img{
+    background-position: center;
+    background-size: cover;
+    border-radius:3px 3px 0px 0px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 60%;
+}
+
+
+.th-detail-budget-link{
+    color: #323c47;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border: none;
+    
+}
+.th-budget-i{
+    height:15px;
+    width: 15px;
+}
+.th-detail-line{
+    border-top:solid 1px #e0e0e0;
+    
+}
+
+.th-transport-places{
+    color: #516378;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;  
+    
+}
+.th-transport-time{
+    color: #323c47;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.th-transport-img{
+    background-position: center;
+    background-size: cover;
+    border-radius:3px 3px 0px 0px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+.th-transport-type{
+    color: #516378;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: block;
+}
+
+.th-off-price{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #fff;
+    background-color: #3996ff;
+    border-radius: 3px;
+
+}
+
+.th-checkbox1 {
+  line-height: 1;
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.th-checkbox1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border: solid 2px #f84b0f;
+}
+
+/* On mouse-over, add a grey background color */
+.th-checkbox1:hover input ~ .checkmark1 {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.th-checkbox1 input:checked ~ .checkmark1 {
+  background-color: #f84b0f;
+  border: solid 2px #f84b0f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.th-checkbox1 input:checked ~ .checkmark1:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.th-checkbox1 .checkmark1:after {
+  left: 4px;
+  top: 0px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 1.5px 1.5px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.th-card-perperson{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #516378;
+    font-size: 12px;
+
+}
+
+.th-transport-included{
+    color: #f84b0f;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
