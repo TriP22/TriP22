@@ -1,0 +1,444 @@
+body{
+    background-color: #fcfcfd;
+}
+
+.Rectangle-Copy-18 {
+    width: 1440px;
+    height: 96px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+  }
+
+  .-Years-in-Travel {
+    width: 140px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+  .Shape {
+    width: 35px;
+    height: 38px;
+    background-color: #323c47;
+  }
+
+  .-Happy-customer {
+    width: 140px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+
+  .-Trained-Profess {
+    width: 140px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+  .Your-trip-advisior-t {
+    width: 180px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+  .Priyal-Goyal-958288 {
+    width: 162px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+
+  /* .Shape {
+    width: 35px;
+    height: 38px;
+    background-color: #323c47;
+  } */
+
+  .Rectangle {
+    width: 56px;
+    height: 37px;
+    border-radius: 3px;
+    background-color: #ebedf8;
+  }
+
+  .Colorbar{
+      background-color:royalblue;
+  }
+  .middletext{
+    margin: auto;;
+  }
+
+  .Filter-by {
+    width: 85px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #222222;
+  }
+
+  .Group-7-Copy {
+    width: 237px;
+    height: 166px;
+    object-fit: contain;
+  }
+  .Kerala-Tour-Package {
+    width: 303px;
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323c47;
+    padding-top: 8px;
+    padding-left: 35px;
+  }
+
+  .Rectang{
+    background-color: rgb(223, 223, 223);
+    height: 20px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  .greytext{
+    color: grey;
+  }
+
+  .volvo{
+    padding-top: 7px;
+    margin-left: 33px;
+    color: grey;
+  }
+  
+  .off{
+    background-color: rgb(61, 61, 243);
+    height: 20px;
+    font-size: 13px;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    
+  }
+
+  .cut{
+    color: gray;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-top: 5px;
+ 
+  }
+
+  .munnartext{
+    font-size: 14px;
+  }
+  .nd{
+    font-size: 14px;
+  }
+  
+  .text15{
+    font-size: 18px;
+    padding-right:5px;
+    font-weight: bold;
+  }
+
+  .textperson{
+    font-size: 14px;
+    color: gray;
+    padding-right: 20px;
+    padding-top: 3px;
+  }
+
+  .five{
+    font-size: 14px;
+    color: rgb(255, 166, 0);
+    padding-right: 20px;
+  }
+
+  .viewd{
+    border-radius: 3px;
+    color: red;
+    font-size: 14px;
+    border:solid 1px red;
+    background-color: white;   
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+  
+     
+      font-family: Lato;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #f84b0f;
+    
+  }
+
+  .Aug-2020 {
+    width: 80px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f84b0f;
+    border: none;
+    background-color: transparent;
+  }
+
+  .No-of-Travellers {
+    width: 101px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+  .Travel-Date {
+    padding-left: 2px;
+    width: 72px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+
+  .Short-by-Popularity {
+    width: 128px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    /* color: #f84b0f; */
+  }
+  
+  .Short-by-Popularity .text-style-1 {
+    padding-right: 20px;
+    text-align: right;
+    color: #516378;
+    padding-right: 20px;
+  }
+
+  .Select-your-travel-d {
+    width: 141px;
+    height: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+
+  .marg{
+
+    /* margin-left: 24px ; */
+    margin-top: 30px;
+   
+  }
+
+  .filterby{
+
+      /* margin-left: 24px ; */
+      margin-top: 21px;
+      width: 85px;
+      height: 23px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: #222222;
+    
+
+  }
+
+  .padt{
+
+    margin-top: 30px;
+  }
+
+  .travelpad{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 20px;
+  }
+
+  .lefttraveldate{
+    width: 61px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8a9bad;
+    border: none;
+    margin-top: 24px;
+  }
+
+  .Rectangle-12-Copy {
+    height: 42px;
+    width: 230px;
+    border-radius: 3px;
+    border: solid 0.8px #ebedf8;
+    background-color: #ffffff;
+    padding-left: 15px;
+  }
+
+  .Kerla {
+    width: 230px;
+    height: 42px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8a9bad;
+    border: none;
+  }
+    .Alleppey {
+    width: 30px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #516378;
+  }
+
+  .checkboxfonts{
+    font-size: 14px;
+  }
+
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 7px; 
+    border-radius: 3px;
+    background: #d3d3d3; 
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .slider:hover {
+    opacity: 1; 
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 18px; 
+    height: 18px; 
+    background:white;
+    border: solid 2px orangered;
+    border-radius: 15px;
+    cursor: pointer; 
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    background: red; 
+    cursor: pointer; 
+  }  
+
+  .Days {
+    width: 98px;
+    height: 18px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #8a9bad;
+  }
+
+
+
+
+  
+
+
+
+
+  
+
+
+  
+  
