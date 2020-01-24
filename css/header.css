@@ -63,3 +63,31 @@
     line-height: 18px;
     color: #516378;
 }
+
+.th-bg-white
+{
+    background-color: #fff;
+}
+
+.th-select{
+    width: 100%;
+    border:none;
+}
+option:checked{
+    background:#000 !important;
+    color: #fff !important;
+  }
+  option:hover {
+    background:#000 !important;
+    color: #fff !important;
+  }
+
+.th-date-bar{display: none;}
+.th-btn{
+    color:#fff !important;
+    background: linear-gradient(-90deg, #f84b0f, #ff8a00);}
+
+.active{
+    display: block !important;
+    transition: all 0.5s ease-in-out;
+}
