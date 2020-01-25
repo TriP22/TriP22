@@ -143,7 +143,7 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
    color: #f84b0f;
    font-size: 12px;
    font-family: 'Lato', sans-serif;
-   font-weight: 700;
+   font-weight: 600;
    border: 1px solid #f84b0f;
    background-color: white;
    border-radius: 4px;  
@@ -370,7 +370,6 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    
 }
 
 .th-change-hotel-btn{
@@ -400,23 +399,32 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     width: 65%;
 }
 
-.th-counter-btn{
+.th-counter-btn-l{
     color: #f84b0f;
     background-color: #fff;
-    border: 1px solid #f84b0f;
+    border: 1.2px solid #f84b0f;
     font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    border-radius: 4px 0 0 4px;
+}
+
+.th-counter-btn-r{
+    color: #f84b0f;
+    background-color: #fff;
+    border: 1.2px solid #f84b0f;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+    font-weight: 700;
 }
 
 .th-counter-input{
     color: #f84b0f;
     background-color: #fff;
-    border: 1px solid #f84b0f;
-    font-size: 12px;
-    width: 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;  
+    border-top: 1.2px solid #f84b0f;
+    border-bottom: 1.2px solid #f84b0f;
+    border-left: none;
+    border-right: none;
+    font-size: 12px; 
+    font-weight: 700;
 }
 
 .th-policy{
@@ -670,6 +678,10 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
   border-radius: 4px;
   background-image: linear-gradient(-90deg, #f84b0f, #ff8a00);
 }
+.th-color-btn:hover{
+    color: #fff;
+}
+
 .th-bordered-btn{
   border: solid 1.5px #f84b0f;
   font-family: 'Lato', sans-serif;
@@ -681,10 +693,19 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
   background-color:white;
   border-radius: 4px;
 }
+.th-bordered-btn:hover{
+    color: #f84b0f;
+}
 
 .th-orange-text{
     color: #f84b0f;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
+}
+
+@media (min-width: 768px){
+  .th-detail-right-padding {
+    padding-right:4%;
+  }
 }
