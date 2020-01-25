@@ -1,7 +1,10 @@
-body{
-    background-color: #fcfcfd;
+.listing-image{
+background-size: cover;
+background-position: center;
+min-height: 180px;
+background-repeat: no-repeat;
+border-radius: 10px;
 }
-
 .Rectangle-Copy-18 {
     width: 1440px;
     height: 96px;
@@ -128,15 +131,11 @@ body{
     padding-top: 8px;
   }
 
-  .Rectang{
-    background-color: rgb(223, 223, 223);
+  .tag{
+    background-color:#ebedf8;
     height: 20px;
     border-radius: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    font-size: 12px;
+    padding: 4px 10px 4px 10px;
   }
   .greytext{
     color: grey;
@@ -148,22 +147,17 @@ body{
   }
   
   .off{
-    background-color: rgb(61, 61, 243);
-    height: 20px;
-    font-size: 13px;
+    background-color:#3996ff;
     color: white;
     border-radius: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 20px;
+    padding: 4px 10px 4px 10px;
     
   }
 
-  .cut{
+  .listing-price-slice{
     color: gray;
     font-size: 14px;
-    padding-right: 20px;
-    padding-top: 5px;
+    text-decoration: line-through;
  
   }
 
@@ -188,38 +182,28 @@ body{
     padding-top: 3px;
   }
 
-  .five{
-    font-size: 14px;
+  .listing-save{
     color: rgb(255, 166, 0);
-    padding-right: 20px;
   }
 
-  .viewd{
+  .th-listing-btn{
     border-radius: 3px;
-    color: red;
-    font-size: 14px;
-    border:solid 1px red;
+    border:solid 1px #f84b0f;
     background-color: white;   
-    margin-top: 10px;
-    margin-right: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-
-
-  
-     
-      font-family: Lato;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color: #f84b0f;
-    
+    font-family: Lato;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f84b0f;
   }
-
+  .th-listing-btn:HOVER{text-decoration: none;
+    color: #f84b0f;}
   .Aug-2020 {
     width: 80px;
     height: 17px;
