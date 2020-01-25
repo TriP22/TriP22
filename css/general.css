@@ -1,3 +1,4 @@
+/* GENERAL */
 body{
     background-color: #fcfcfd;
 }
@@ -45,11 +46,24 @@ body{
     color: #323c47;
 }
 
-/* homepage */
+
+/* HEADER */
+
+
+
+/* HOMEPAGE */
+/* popular destinations */
+/* Ritzy Holiday Packages */
+/* honeymoon for every budget */
+/* Smart traveller */
+/* super offers */
+/* trekking packages */
+/* popular activities */
+/* popular trekking */
 /* why book with us */
 
 
-/* footer */
+/* FOOTER */
 .th-footer{
     background-color: #ffffff;
 }
@@ -86,4 +100,3 @@ body{
     height:57px;
     background: linear-gradient(-90deg, #f84b0f, #ff8a00);
 }
-/* //footer */
