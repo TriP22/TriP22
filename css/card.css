@@ -256,7 +256,6 @@
     position: relative;
     border: 0px solid transparent;
     border-radius: 3px;
-    
 }
 
 .th-card-type-4 .th-card-ribbon{
@@ -278,7 +277,6 @@
     font-size: 10px;
     color: #3996ff;
     z-index: 10000;
-
 }
 .th-card-type-4 .th-card-data-img{
     background-position: center;
@@ -286,5 +284,4 @@
     border-radius:3px 3px 3px 3px;
     background-repeat: no-repeat;
     height: 300px;
-
 }
