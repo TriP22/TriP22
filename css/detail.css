@@ -396,31 +396,40 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     border-radius:3px;
     background-repeat: no-repeat;
     height: 75px;
-    width: 65%;
+    width: 80%;
+}
+
+.th-activity-popup-img{
+    background-position: center;
+    background-size: cover;
+    border-radius:3px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 95%; 
 }
 
 .th-counter-btn-l{
     color: #f84b0f;
     background-color: #fff;
-    border: 1.2px solid #f84b0f;
+    border: 1px solid #f84b0f;
     font-size: 12px;
-    border-radius: 4px 0 0 4px;
+    border-radius: 2px 0 0 2px;
 }
 
 .th-counter-btn-r{
     color: #f84b0f;
     background-color: #fff;
-    border: 1.2px solid #f84b0f;
+    border: 1px solid #f84b0f;
     font-size: 12px;
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 2px 2px 0;
     font-weight: 700;
 }
 
 .th-counter-input{
     color: #f84b0f;
     background-color: #fff;
-    border-top: 1.2px solid #f84b0f;
-    border-bottom: 1.2px solid #f84b0f;
+    border-top: 1px solid #f84b0f;
+    border-bottom: 1px solid #f84b0f;
     border-left: none;
     border-right: none;
     font-size: 12px; 
@@ -631,6 +640,14 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-weight: 700; 
 }
 
+.th-detail-travel-selector .add-activity{
+    color: #f84b0f;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+
 .th-card-promotion{
     background-position: center;
     background-size: cover;
@@ -709,3 +726,33 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     padding-right:4%;
   }
 }
+
+.search-date1{width: 100%;} 
+.th-date-bar{display: none;}
+.th-travel-bar{display: none;}
+.th-travel-bar-subhead{
+   color: #516378;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; }
+.active{display: block;}
+
+.plus-minus-input .input-group-button .circle {
+    font-size: 10px;
+    color: #f84b0f;
+    background-color: transparent;
+    border: solid 1.5px #f84b0f;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+
+.plus-minus-input .input-group-field1 {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 40px;
+    color: #f84b0f;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+
