@@ -7,8 +7,38 @@ $(document).ready(function(){
     dots:false,
     arrows: true,
     infinite:false,
-    nextArrow:'<button type="button" class="btn slick-next shadow-sm" style="line-height: 15px !important;background-color:#fff;height:50px;width:50px;border-radius:50%;z-index:1000;margin-right:5px;">NESTTTT</button>',
-    prevArrow:'<button type="button" class="btn slick-prev shadow-sm" style="line-height: 15px !important;background-color:#fff;height:50px;width:50px;border-radius:50%;z-index:1000;margin-left:5px;">Previous</button>',
+    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"></button>',
+    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider" ></button>',
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1.2,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
   });
   $('.slider1').slick({
       slidesToShow: 5,
@@ -18,8 +48,38 @@ $(document).ready(function(){
       dots:false,
       arrows: true,
       infinite:false,
-      nextArrow:'<button type="button" class="btn slick-next shadow-sm" style="line-height: 15px !important;background-color:#fff;height:50px;width:50px;border-radius:50%;z-index:1000;margin-right:5px;">NESTTTT</button>',
-      prevArrow:'<button type="button" class="btn slick-prev shadow-sm" style="line-height: 15px !important;background-color:#fff;height:50px;width:50px;border-radius:50%;z-index:1000;margin-left:5px;">Previous</button>',
+      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"></button>',
+      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider" ></button>',
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: false,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1.5,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
   });
   $('.slider-promotion').slick({
       slidesToShow: 2,
@@ -29,9 +89,39 @@ $(document).ready(function(){
       dots:true,
       arrows: false,
       infinite:false,
-      nextArrow:'<button type="button" class="btn slick-next shadow-sm" style="line-height: 15px !important;background-color:#fff;height:50px;width:50px;border-radius:50%;z-index:1000;margin-right:5px;">NESTTTT</button>',
-      prevArrow:'<button type="button" class="btn slick-prev shadow-sm" style="line-height: 15px !important;background-color:#fff;height:50px;width:50px;border-radius:50%;z-index:1000;margin-left:5px;">Previous</button>',
-  });
+      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"></button>',
+      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider" ></button>',
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: false,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
   $('.responsive-card-1').slick({
     dots:false,
     infinite: false,

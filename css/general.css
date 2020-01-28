@@ -55,7 +55,7 @@ body{
     color: #f84b0f;
 }
 .th-white{
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 /* link */
@@ -141,8 +141,8 @@ body{
 }
 .th-card-type-3 .th-card-ribbon{
     right: 0;
-    margin-top: 12px;
-    margin-right: 12px;
+    margin-top: 16px;
+    margin-right: 16px;
     height: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -240,7 +240,7 @@ body{
 }
 .th-card-promotion-grad1{
     border-radius:5px;
-    height: 25vh;
+    height: 100%;
     background: linear-gradient(180deg,  RGB(23, 32, 42,0.2), RGB(23, 32, 42,0.9));
 }
 .th-card-promotion2-title{
@@ -253,8 +253,8 @@ body{
 }
 .th-card-promotion2-ribbon{
     right: 0;
-    margin-top: 16px;
-    margin-right: 16px;
+    margin-top: 20px;
+    margin-right: 20px;
     height: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -277,18 +277,19 @@ body{
     font-size: 12px; 
     display: block;
     position: absolute;
-    bottom:35px;
+    bottom:45px;
+    right: 20px;
     margin-left: 8px;
 }
 .th-card-promotion2-price{
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 28px; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 34px; 
     display: block;
     text-transform: uppercase; 
     position: absolute;
     bottom:0;
+    right: 20px;
     margin-left: 8px;
 }
 .th-card-type-4{
@@ -302,8 +303,8 @@ body{
 }
 .th-card-type-4 .th-card-ribbon{
     right: 0;
-    margin-top: 8px;
-    margin-right: 8px;
+    margin-top: 16px;
+    margin-right: 16px;
     height: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -404,4 +405,13 @@ body{
     border:none;
     height:57px;
     background: linear-gradient(-90deg, #f84b0f, #ff8a00);
+}
+.slick-disabled
+{
+    display: none !important;
+    opacity: 0 !important;
+}
+.th-btn-slider{
+    
+    line-height: 15px !important;background-color:#fff !important;height:50px !important;width:50px !important;border-radius:50% !important;z-index:1000;margin-left:5px;
 }
