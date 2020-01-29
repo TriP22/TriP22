@@ -70,6 +70,9 @@ body{
 .th-white{
     color: #ffffff !important;
 }
+.th-grey-2{
+    color: rgba(50, 60, 71, 0.58);
+}
 
 /* link */
 .th-link-1 :hover{
@@ -480,6 +483,14 @@ body{
 /* popular activities */
 /* popular trekking */
 /* join us */
+
+.th-btn-book{
+    height: 42px;
+    border-radius: 3px;
+    cursor:pointer;
+    border:none;
+    background: linear-gradient(-90deg, #f84b0f, #ff8a00);
+}
 /* cities */
 .th-box-city-image{
     height: 60px;
