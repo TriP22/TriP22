@@ -453,12 +453,13 @@ body{
 
 
 /* HEADER */
-.th-cat-name{
+.th-cat-link{
     color: #323c47;
     font-family: 'Lato', sans-serif;
     font-size: 14PX;
 }
-.th-cat-name :hover{
+.th-cat-link:hover{
+    color: #f84b0f;
     text-decoration: none;
 }
 
@@ -550,3 +551,9 @@ body{
     
     line-height: 15px !important;background-color:#fff !important;height:50px !important;width:50px !important;border-radius:50% !important;z-index:1000;margin-left:5px;
 }
+
+/* model */
+.th-modal-width-80 {
+    max-width: 400px;
+    margin-top: 5%;
+  }
