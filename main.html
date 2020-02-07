@@ -269,7 +269,7 @@
                         <a class="nav-link th-header-btn shadow-sm" href="#"> <img src="img/support.svg" class="th-header-icon my-auto"> 24*7 Support</a>
                     </li>
                     <li class="nav-item pl-2">
-                        <a class="nav-link th-header-btn shadow-sm" data-toggle="modal" href="#exampleModal"><img src="img/add-user.svg" class="th-header-icon my-auto "> Login or Create Account</a>
+                        <a class="nav-link th-header-btn shadow-sm" data-toggle="modal" href="#th-modal-login"><img src="img/add-user.svg" class="th-header-icon my-auto "> Login or Create Account</a>
                     </li>
                     </ul>
                     
@@ -2295,46 +2295,96 @@
         <!-- model -->
   
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="th-modal-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog th-modal-width-80" role="document">
                 <div class="modal-content" style="border: none !important;">
                     <div class="modal-header px-4 py-2" style="background-color: #4565ae;">
                         <h5 class="modal-title th-lato th-24 th-bold th-white my-auto" id="exampleModalLabel">Login</h5>
                         <button type="button" class="close my-auto" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="las la-times" style="color: white;"></i></span>
+                            <span aria-hidden="true"><i class="las la-times th-icon-white"></i></span>
                         </button>
                     </div>
                     <form>
                         <div class="p-4">
-                            <button class="col-12 p-2 mt-3" style="border-radius: 3px;box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);background-color: #3f5e95;">
-                                <i class="lab la-facebook-f px-3" style="color:white"></i>
+                            <button class="th-login-fb col-12 p-2 mt-3">
+                                <i class="lab la-facebook-f th-icon-white px-3"></i>
                                 <spun class="th-lato th-14 th-white">Login with Facebook</spun> 
                             </button>
-                            <div class="p-2 mt-3" style="border-radius: 3px;box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);background-color: #e35c3b;">
-                                <i class="lab la-google px-3" style="color:white"></i>
+                            <button class="th-login-google col-12 p-2 mt-3">
+                                <i class="lab la-google th-icon-white px-3"></i>
                                 <spun class="th-lato th-14 th-white">Login with Google</spun> 
-                            </div>
+                            </button>
                             <div class="d-flex justify-content-center p-4 th-lato th-14 th-700 th-grey-2">
                                 OR
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control pl-4" aria-describedby="emailHelp" placeholder="Email ID" style="border-radius: 3px;">
+                                <input type="email" class="th-login-input form-control pl-4" aria-describedby="emailHelp" placeholder="Email ID">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control pl-4" placeholder="Password">
+                                <input type="password" class="th-login-input form-control pl-4" placeholder="Password">
                             </div>
-                            <div class="px-0 th-lato th-14 th-bold th-orange">
-                                <a href="#">Forgot Password?</a> 
+                            <div class="px-0 th-link-1">
+                                <a class="th-lato th-14 th-bold th-orange" href="#">Forgot Password?</a> 
                             </div>
                             <button type="submit" class="btn th-btn col-md-12 th-lato th-14 th-bold th-white my-4 py-2">Login</button>
-                            <div class="d-flex justify-content-center th-lato th-18">
-                                Create account? <a href="#">&nbsp;	Sign Up</a>
+                            <div class="d-flex justify-content-center th-lato th-18 th-grey th-link-1">
+                                Create account?&nbsp;	<a class="th-bold th-orange" data-toggle="modal" href="#th-modal-singnup">Sign Up</a class="th-lato th-14 th-bold th-orange">
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="th-modal-singnup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog th-modal-width-80" role="document">
+                <div class="modal-content" style="border: none !important;">
+                    <div class="modal-header px-4 py-2" style="background-color: #4565ae;">
+                        <h5 class="modal-title th-lato th-24 th-bold th-white my-auto" id="exampleModalLabel">Sign Up</h5>
+                        <button type="button" class="close my-auto" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="las la-times th-icon-white"></i></span>
+                        </button>
+                    </div>
+                    <form>
+                        <div class="p-4">
+                            <button class="th-login-fb col-12 p-2 mt-3">
+                                <i class="lab la-facebook-f th-icon-white px-3"></i>
+                                <spun class="th-lato th-14 th-white">Login with Facebook</spun> 
+                            </button>
+                            <button class="th-login-google col-12 p-2 mt-3">
+                                <i class="lab la-google th-icon-white px-3"></i>
+                                <spun class="th-lato th-14 th-white">Login with Google</spun> 
+                            </button>
+                            <div class="d-flex justify-content-center p-4 th-lato th-14 th-700 th-grey-2">
+                                OR
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="th-login-input form-control pl-4" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="th-login-input form-control pl-4" aria-describedby="emailHelp" placeholder="Email ID">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="th-login-input form-control pl-4" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="th-login-input form-control pl-4" placeholder="Confirm Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="th-login-input form-control pl-4" placeholder="Mobile Number">
+                            </div>
+                            <div class="px-0 th-link-1">
+                                <a class="th-lato th-14 th-bold th-orange" href="#">Forgot Password?</a> 
+                            </div>
+                            <button type="submit" class="btn th-btn col-md-12 th-lato th-14 th-bold th-white my-4 py-2">Login</button>
+                            <div class="d-flex justify-content-center th-lato th-18 th-grey th-link-1">
+                                Already have an account?&nbsp;	<a class="th-bold th-orange" href="#th-modal-login">Login</a class="th-lato th-14 th-bold th-orange">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <!-- //model -->
 
 
