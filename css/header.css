@@ -32,13 +32,13 @@
 } 
 
 
-.th-header-btn
-{
-    
+.th-header-btn{
     background-color: rgb(248, 75, 15, .06);
     color: #f84b0f !important;
 }
-.th-header-icon{height: 12 px;}
+.th-header-icon{
+    height: 12 px;
+}
 
 .th-header-circle-img{
     border-radius: 50%;

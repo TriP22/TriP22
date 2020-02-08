@@ -36,6 +36,9 @@ body{
 .th-700{
     font-weight: 700;
 }
+.th-900{
+    font-weight: 900;
+}
 
 /* font-size */
 .th-12{
@@ -55,6 +58,9 @@ body{
 }
 .th-24{
     font-size: 24px;
+}
+.th-48{
+    font-size: 48px;
 }
 
 /* font-color */
