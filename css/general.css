@@ -98,10 +98,11 @@ body{
 .th-card-body-bestseller{
      margin-right: 0.5rem;
      margin-left: 0.5rem;
+    /* width: 18vw; */
     /* margin-bottom: 0.5rem; */
     display: block;
     position: relative;
-    height: 220px;
+    /* height: 18vw; */
 }
 .th-card-img
 {
@@ -347,12 +348,12 @@ body{
     text-decoration: line-through;
     line-height: 32px;
 }
-.slick-next::before {
+/* .slick-next::before {
     content: '\203A' !important; color: #000e !important;
 }
 .slick-prev:before {
     content: '\2039' !important; color: #000 !important;
-}
+} */
 .th-card-promotion2{
     background-position: center;
     background-size: cover;
@@ -560,7 +561,7 @@ body{
     
     line-height: 15px !important;background-color:#fff !important;height:50px !important;width:50px !important;border-radius:50% !important;z-index:1000;margin-left:5px;
 }
-
+.th-slider-margin{margin-left:-8px !important;}
 /* model */
 .th-modal-width-80 {
     max-width: 400px;
