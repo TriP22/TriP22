@@ -1598,12 +1598,42 @@
                         </div>
                         <div class="row">
                             <div class="col-9">
-                                <span class="th-card-price-lg">₹105,999<span class="th-card-pp-lg"> per person</span></span>
+                                <span class="th-card-price-lg" data-popover-content="#th-price-data" data-toggle="popover" data-placement="bottom" id="price-select">₹105,999<span class="th-card-pp-lg"> per person</span></span>
                             </div>
+                            
                             <div class="col-3 text-right">
                                 <span class="th-off-price px-2 py-1">25% OFF</span>
                             </div>
                         </div>
+                        
+                       <!--price content popup-->
+                        <div class="row text-center th-price-data">
+                            <div class="col-md-12 popover-body">
+                             <hr>
+                                <div class="row">
+                                    <span class="th-card-sub-title-dark col-md-12 text-left">View additional activities included</span>
+                                    <span class="th-card-sub-title col-md-4 text-left">River rafting for</span>
+                                      <div class="col-md-3 th-transport-time pr-0">
+                                        <div class="input-group plus-minus-input">
+                                            <button type="button" class="input-group-button col-md-4 th-pcounter-btn-l p-0" data-quantity="minus" data-field="child-p">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+
+                                            <input class="input-group-field th-pcounter-input col-md-4 px-0 text-center" type="text" name="child-p" value="0" readonly>
+
+                                            <button type="button" class="input-group-button col-md-4 th-pcounter-btn-r p-0" data-quantity="plus" data-field="child-p"><i class="fa fa-plus"></i>
+                                            </button> 
+                                          </div>
+                                        </div>
+                                        <span class="th-card-price-sm col-md-4">+₹105,999</span>
+                                        <span class="th-orange-bg-btn col-md-1">x</span>
+                                        </div>
+                                </div>
+                            </div>
+                       
+                       <!--price content popup-->
+                        
+                        
                         <div class="row">
                             <div class="px-3 py-4 col-12">
                              <div class="row">
@@ -2037,16 +2067,12 @@
             <div class="row shadow-sm p-3 bg-white rounded">
                 
                 <div class="slider container  px-0">
-                    <div class="row th-card m-0">
-                       <div class="th-card-body-bestseller">
-                           <div class="th-card-img" style="background-image: url('img/hotel.jpg');">
-                           </div>
+                    <div class="th-card">
+                       <div class="th-popup-carusol-img" style="background-image: url('img/hotel.jpg');">
                        </div>
                    </div>
-                    <div class="row th-card m-0">
-                       <div class="th-card-body-bestseller">
-                           <div class="th-card-img" style="background-image: url('img/hotel.jpg');">
-                           </div>
+                    <div class="th-card">
+                       <div class="th-popup-carusol-img" style="background-image: url('img/hotel.jpg');">
                        </div>
                    </div>
                 </div>
@@ -2743,6 +2769,9 @@
         <script>
            $('#traveller-select').on('click', function () {
                 $('.th-travel-bar').toggleClass('active');
+           });
+          $('#price-select').on('click', function () {
+                $('.th-price-data').toggleClass('active');
            });
            $("[data-toggle=popover]").popover({
             html : true,

@@ -129,10 +129,10 @@ $(document).ready(function(){
       autoplay: false,
       autoplaySpeed: 4000,
       dots:true,
-      arrows: false,
+      arrows: true,
       infinite:false,
-      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
-      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
+      nextArrow:$(".nextp"),
+      prevArrow:$(".prevp"),
       responsive: [
         {
           breakpoint: 1024,
