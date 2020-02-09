@@ -8,7 +8,7 @@ $(document).ready(function(){
     arrows: true,
     infinite:false,
     // variableWidth: true,
-    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/next.svg" style="height:15px;width:15px;"></button>',
+    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:15px;width:15px;"></button>',
     prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:15px;width:15px;"></button>',
     responsive: [
       {

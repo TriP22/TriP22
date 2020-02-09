@@ -585,3 +585,7 @@ body{
 .th-login-input{
     height: 42px;
 }
+
+.dropdown-toggle::after{
+
+    content : none;}

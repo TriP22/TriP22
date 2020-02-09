@@ -86,32 +86,32 @@
     right: -25px;
     left: auto;
 }
-.slick-prev:before
+/* .slick-prev:before
 {
-    background: url('https://image.shutterstock.com/image-vector/arrow-icon-trendy-flat-style-260nw-414800185.jpg') no-repeat;
+    content: '<';
 }
 [dir='rtl'] .slick-prev:before
 {
-    background: url('https://image.shutterstock.com/image-vector/arrow-icon-trendy-flat-style-260nw-414800185.jpg') no-repeat;
-}
+    content: '>';
+} */
 
 .slick-next
 {
-    right: -20px;
+    right: -25px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
     left: -25px;
 }
-.slick-next:before
+/* .slick-next:before
 {
-    background: url('https://image.shutterstock.com/image-vector/arrow-icon-trendy-flat-style-260nw-414800185.jpg') no-repeat;
+    content: '>';
 }
 [dir='rtl'] .slick-next:before
 {
-    background: url('https://image.shutterstock.com/image-vector/arrow-icon-trendy-flat-style-260nw-414800185.jpg') no-repeat;
-}
+    content: '<';
+} */
 
 /* Dots */
 .slick-dotted.slick-slider
