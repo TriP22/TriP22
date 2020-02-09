@@ -13,7 +13,12 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/detail.css">
+        <link rel="stylesheet" href="css/general.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 
     <title>Glacial Adventures</title>
 </head>
@@ -439,7 +444,52 @@
                                                 <div class="col-md-9 my-auto">
                                                     <div class="row">
                                                         <span class="th-budget-head col-8 px-0 text-left">
-                                                            Honeymoon In Hotel <img src="img/info-bg.svg" class="th-budget-i ml-2">
+                                                            Honeymoon In Hotel <img src="img/info-bg.svg" data-toggle="modal" data-target=".bd-example3-modal-lg" class="th-budget-i ml-2">
+                                                        </span> 
+                                                        <span class="th-budget-head col-4 px-0 text-right">
+                                                            <button class="th-change-hotel-btn py-2 px-3">Change Hotel</button>
+                                                        </span>
+                                                    </div>
+                                                    <div class="row">
+                                                        <span class="th-hotel-card-subhead col-12 px-0">
+                                                            Chithirapuram, Munnar
+                                                        </span>
+
+                                                        <span class="th-hotel-card-label col-md-3 px-0 mx-0 mt-2">
+                                                            Dates (5 Night)
+                                                        </span>
+                                                        <span class="th-hotel-card-value col-md-9 px-0 mx-0 mt-2 text-left">26 Aug 2018 - 27 Aug 2018</span>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <div class="row">
+                                                                <span class="th-hotel-card-label col-md-3 px-0 mx-0 mt-1">
+                                                                    Includes
+                                                                </span>
+                                                                <span class="th-hotel-card-value col-md-9 px-0 mt-1 text-left">Breakfast-Dinner</span>
+                                                                <span class="th-hotel-card-label col-md-2 px-0 mx-0 mt-1">
+                                                                    Room
+                                                                </span>
+                                                                <span class="th-hotel-card-value col-md-6 px-0 mt-1 text-left">Standard room</span>
+                                                            </div>
+                                                        </div>
+                                                        <span class="th-budget-head col-4 p-0 mx-0 mt-1 text-right">
+                                                            <button class="th-change-hotel-btn py-2 px-3 ">Change Room</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="th-detail-budget mt-3 col-12">
+                                            <div class="row shadow-sm p-3 bg-white rounded">
+                                                <div class="col-md-3 px-0 mx-0">
+                                                    <div class="th-detail-budget-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                                                </div>
+                                                <div class="col-md-9 my-auto">
+                                                    <div class="row">
+                                                        <span class="th-budget-head col-8 px-0 text-left">
+                                                            Honeymoon In Hotel <img src="img/info-bg.svg" data-toggle="modal" data-target=".bd-example3-modal-lg" class="th-budget-i ml-2">
                                                         </span>
                                                         <span class="th-budget-head col-4 px-0 text-right">
                                                             <button class="th-change-hotel-btn py-2 px-3">Change Hotel</button>
@@ -484,52 +534,7 @@
                                                 <div class="col-md-9 my-auto">
                                                     <div class="row">
                                                         <span class="th-budget-head col-8 px-0 text-left">
-                                                            Honeymoon In Hotel <img src="img/info-bg.svg" class="th-budget-i ml-2">
-                                                        </span>
-                                                        <span class="th-budget-head col-4 px-0 text-right">
-                                                            <button class="th-change-hotel-btn py-2 px-3">Change Hotel</button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="row">
-                                                        <span class="th-hotel-card-subhead col-12 px-0">
-                                                            Chithirapuram, Munnar
-                                                        </span>
-
-                                                        <span class="th-hotel-card-label col-md-3 px-0 mx-0 mt-2">
-                                                            Dates (5 Night)
-                                                        </span>
-                                                        <span class="th-hotel-card-value col-md-9 px-0 mx-0 mt-2 text-left">26 Aug 2018 - 27 Aug 2018</span>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-8">
-                                                            <div class="row">
-                                                                <span class="th-hotel-card-label col-md-3 px-0 mx-0 mt-1">
-                                                                    Includes
-                                                                </span>
-                                                                <span class="th-hotel-card-value col-md-9 px-0 mt-1 text-left">Breakfast-Dinner</span>
-                                                                <span class="th-hotel-card-label col-md-2 px-0 mx-0 mt-1">
-                                                                    Room
-                                                                </span>
-                                                                <span class="th-hotel-card-value col-md-6 px-0 mt-1 text-left">Standard room</span>
-                                                            </div>
-                                                        </div>
-                                                        <span class="th-budget-head col-4 p-0 mx-0 mt-1 text-right">
-                                                            <button class="th-change-hotel-btn py-2 px-3 ">Change Room</button>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="th-detail-budget mt-3 col-12">
-                                            <div class="row shadow-sm p-3 bg-white rounded">
-                                                <div class="col-md-3 px-0 mx-0">
-                                                    <div class="th-detail-budget-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
-                                                </div>
-                                                <div class="col-md-9 my-auto">
-                                                    <div class="row">
-                                                        <span class="th-budget-head col-8 px-0 text-left">
-                                                            Honeymoon In Hotel <img src="img/info-bg.svg" class="th-budget-i ml-2">
+                                                            Honeymoon In Hotel <img src="img/info-bg.svg" data-toggle="modal" data-target=".bd-example3-modal-lg" class="th-budget-i ml-2">
                                                         </span>
                                                         <span class="th-budget-head col-4 px-0 text-right">
                                                             <button class="th-change-hotel-btn py-2 px-3">Change Hotel</button>
@@ -1603,10 +1608,10 @@
                             <div class="px-3 py-4 col-12">
                              <div class="row">
                                <div class="col-md-6">
-                                 <a  href="login.html"class="btn th-bordered-btn py-2 col-md-12" data-toggle="modal" data-target=".bd-example-modal-lg">Enquire Now</a>
+                                 <a  href="login.html"class="btn th-bordered-btn py-2 col-md-12" data-toggle="modal" data-target=".bd-example1-modal-lg">Enquire Now</a>
                                </div>
                                <div class="col-md-6">
-                                 <a href="signup.html"class="btn th-color-btn py-2 float-right col-md-12">Book Now</a>
+                                 <a href="signup.html"class="btn th-color-btn py-2 float-right col-md-12" data-toggle="modal" data-target=".bd-example2-modal-lg">Book Now</a>
                                 </div>
                              </div>
                           </div>
@@ -1616,222 +1621,653 @@
                              93 other people are considering
                           </span>  
                         </div>
+                        
+<!--POPUP-->
 
-                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-lg">
-                            <div class="modal-content row shadow-sm p-3 bg-white rounded">
-                              <div class="row shadow-sm py-2 bg-white rounded">
-                                <div class="col-md-12">
-                                    <h1 class="th-detailpage-head">Activities</h1>
-                                </div>
-                              </div>
-                               
-                                <div class="col-12">
-                                 <div class="row">
-                                    <span class="th-detail-card-places col-12 mt-3">
-                                        Other options to choose at additional cost
-                                    </span>
-                                </div>
-                                  <div class="th-detail-budget mt-2">
-                                    <div class="row shadow-sm p-3 bg-white rounded">
-                                        <div class="col-md-2">
-                                            <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
-                                        </div>
-                                        <div class="col-md-10">
-                                            <div class="row">
-                                                <span class="th-budget-head col-md-6 px-0 text-left">
-                                                    Paragliding
-                                                </span>
-                                                <span class="th-budget-head col-md-3 px-0 text-right">
-                                                    +₹15,999 <span class="th-detailpage-subhead">per person</span>
-                                                </span>
-                                                <div class="col-md-3 pr-1 mt-1">
-                                                    <label class="th-checkbox1"><span class="th-transport-included">included now</span>
-                                                        <input type="checkbox">
-                                                        <span class="checkmark1"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-md-12 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0">
-                                                        <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0 ">
-                                                        <span class="th-transport-date">27 Aug 2018</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                    </div>
-                                    
-                                    <div class="th-detail-budget mt-3">
-                                    <div class="row shadow-sm p-3 bg-white rounded">
-                                        <div class="col-md-2">
-                                            <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
-                                        </div>
-                                        <div class="col-md-10">
-                                            <div class="row">
-                                                <span class="th-budget-head col-md-6 px-0 text-left">
-                                                    Paragliding
-                                                </span>
-                                                <span class="th-budget-head col-md-3 px-0 text-right">
-                                                    +₹15,999 <span class="th-detailpage-subhead">per person</span>
-                                                </span>
-                                                <div class="col-md-3 pr-1 mt-1">
-                                                    <label class="th-checkbox1"><span class="th-transport-included">included now</span>
-                                                        <input type="checkbox">
-                                                        <span class="checkmark1"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-md-12 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0">
-                                                        <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0 ">
-                                                        <span class="th-transport-date">27 Aug 2018</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                    </div>
-                                 </div>
-                                 
-                                 <div class="col-12">
-                                 <div class="row">
-                                    <span class="th-detail-card-places col-12 mt-3">
-                                        Activities included for this Package
-                                    </span>
-                                </div>
-                                  <div class="th-detail-budget mt-2">
-                                    <div class="row shadow-sm p-3 bg-white rounded">
-                                        <div class="col-md-2">
-                                            <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
-                                        </div>
-                                        <div class="col-md-10">
-                                            <div class="row">
-                                                <span class="th-budget-head col-md-7 px-0 text-left">
-                                                    Paragliding
-                                                </span>
-                                                <span class="th-budget-head col-md-3 px-0 text-right">
-                                                    +₹15,999 <span class="th-detailpage-subhead">per person</span>
-                                                </span>
-                                                <div class="col-md-2 pr-1 mt-1">
-                                                    <label class="th-checkbox1"><span class="th-transport-included">included</span>
-                                                        <input type="checkbox" checked>
-                                                        <span class="checkmark1"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-md-12 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0">
-                                                        <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-5 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0 ">
-                                                        <span class="th-transport-date">27 Aug 2018</span>
-                                                    </span>
-                                                </div>
+<!-- Activities Popup-->
+<div class="modal fade bd-example1-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content row shadow-sm p-3 bg-white rounded">
+      <div class="row shadow-sm py-2 bg-white rounded">
+        <div class="col-md-12">
+            <h1 class="th-detailpage-head">Activities</h1>
+        </div>
+      </div>
 
-                                                <div class="col-md-4 pr-1 text-right">
-                                                    <span class="th-transport-time col-md-12 px-0">
-                                                        <span class="th-transport-date">No. of Travellers</span>
-                                                    </span>
-                                                </div>
+        <div class="col-12">
+         <div class="row">
+            <span class="th-detail-card-places col-12 mt-3">
+                Other options to choose at additional cost
+            </span>
+        </div>
+          <div class="th-detail-budget mt-2">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2">
+                    <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <span class="th-budget-head col-md-6 px-0 text-left">
+                            Paragliding
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right">
+                            +₹15,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+                        <div class="col-md-3 pr-1 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">included now</span>
+                                <input type="checkbox">
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 px-0">
+                            <span class="th-transport-time col-md-12 px-0">
+                                <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 px-0">
+                            <span class="th-transport-time col-md-12 px-0 ">
+                                <span class="th-transport-date">27 Aug 2018</span>
+                            </span>
+                        </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
 
-                                                <div class="col-md-3 th-transport-time pr-0">
-                                                    <div class="input-group plus-minus-input">
-                                                        <button type="button" class="input-group-button col-md-4 th-counter-btn-l p-0" data-quantity="minus" data-field="child-popup1">
-                                                            <i class="fa fa-minus"></i>
-                                                        </button>
+            <div class="th-detail-budget mt-3">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2">
+                    <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <span class="th-budget-head col-md-6 px-0 text-left">
+                            Paragliding
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right">
+                            +₹15,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+                        <div class="col-md-3 pr-1 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">included now</span>
+                                <input type="checkbox">
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 px-0">
+                            <span class="th-transport-time col-md-12 px-0">
+                                <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 px-0">
+                            <span class="th-transport-time col-md-12 px-0 ">
+                                <span class="th-transport-date">27 Aug 2018</span>
+                            </span>
+                        </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+         </div>
 
-                                                        <input class="input-group-field th-counter-input col-md-4 px-0 text-center" type="text" name="child-popup1" value="0" readonly>
+         <div class="col-12">
+         <div class="row">
+            <span class="th-detail-card-places col-12 mt-3">
+                Activities included for this Package
+            </span>
+        </div>
+          <div class="th-detail-budget mt-2">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2">
+                    <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <span class="th-budget-head col-md-7 px-0 text-left">
+                            Paragliding
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right">
+                            +₹15,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+                        <div class="col-md-2 pr-1 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">included</span>
+                                <input type="checkbox" checked>
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 px-0">
+                            <span class="th-transport-time col-md-12 px-0">
+                                <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 px-0">
+                            <span class="th-transport-time col-md-12 px-0 ">
+                                <span class="th-transport-date">27 Aug 2018</span>
+                            </span>
+                        </div>
 
-                                                        <button type="button" class="input-group-button col-md-4 th-counter-btn-r p-0" data-quantity="plus" data-field="child-popup1"><i class="fa fa-plus"></i>
-                                                        </button> 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    
-                                    <div class="th-detail-budget mt-3">
-                                    <div class="row shadow-sm p-3 bg-white rounded">
-                                        <div class="col-md-2">
-                                            <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
-                                        </div>
-                                        <div class="col-md-10">
-                                            <div class="row">
-                                                <span class="th-budget-head col-md-7 px-0 text-left">
-                                                    Paragliding
-                                                </span>
-                                                <span class="th-budget-head col-md-3 px-0 text-right">
-                                                    +₹15,999 <span class="th-detailpage-subhead">per person</span>
-                                                </span>
-                                                <div class="col-md-2 pr-1 mt-1">
-                                                    <label class="th-checkbox1"><span class="th-transport-included">included</span>
-                                                        <input type="checkbox" checked>
-                                                        <span class="checkmark1"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-md-12 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0">
-                                                        <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-5 px-0">
-                                                    <span class="th-transport-time col-md-12 px-0 ">
-                                                        <span class="th-transport-date">27 Aug 2018</span>
-                                                    </span>
-                                                </div>
+                        <div class="col-md-4 pr-1 text-right">
+                            <span class="th-transport-time col-md-12 px-0">
+                                <span class="th-transport-date">No. of Travellers</span>
+                            </span>
+                        </div>
 
-                                                <div class="col-md-4 pr-1 text-right">
-                                                    <span class="th-transport-time col-md-12 px-0">
-                                                        <span class="th-transport-date">No. of Travellers</span>
-                                                    </span>
-                                                </div>
+                        <div class="col-md-3 th-transport-time pr-0">
+                            <div class="input-group plus-minus-input">
+                                <button type="button" class="input-group-button col-md-4 th-counter-btn-l p-0" data-quantity="minus" data-field="child-popup1">
+                                    <i class="fa fa-minus"></i>
+                                </button>
 
-                                                <div class="col-md-3 th-transport-time pr-0">
-                                                    <div class="input-group plus-minus-input">
-                                                        <button type="button" class="input-group-button col-md-4 th-counter-btn-l p-0" data-quantity="minus" data-field="child-popup">
-                                                            <i class="fa fa-minus"></i>
-                                                        </button>
+                                <input class="input-group-field th-counter-input col-md-4 px-0 text-center" type="text" name="child-popup1" value="0" readonly>
 
-                                                        <input class="input-group-field th-counter-input col-md-4 px-0 text-center" type="text" name="child-popup" value="0" readonly>
+                                <button type="button" class="input-group-button col-md-4 th-counter-btn-r p-0" data-quantity="plus" data-field="child-popup1"><i class="fa fa-plus"></i>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
 
-                                                        <button type="button" class="input-group-button col-md-4 th-counter-btn-r p-0" data-quantity="plus" data-field="child-popup"><i class="fa fa-plus"></i>
-                                                        </button> 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                 </div>
-                              </div>
+            <div class="th-detail-budget mt-3">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2">
+                    <div class="th-activity-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <span class="th-budget-head col-md-7 px-0 text-left">
+                            Paragliding
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right">
+                            +₹15,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+                        <div class="col-md-2 pr-1 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">included</span>
+                                <input type="checkbox" checked>
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 px-0">
+                            <span class="th-transport-time col-md-12 px-0">
+                                <span class="th-transport-date">Date:</span> 19 Sep 2019 - 20 Sep 2019 &bull; <span class="th-transport-date">4-Seater AC</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 px-0">
+                            <span class="th-transport-time col-md-12 px-0 ">
+                                <span class="th-transport-date">27 Aug 2018</span>
+                            </span>
+                        </div>
+
+                        <div class="col-md-4 pr-1 text-right">
+                            <span class="th-transport-time col-md-12 px-0">
+                                <span class="th-transport-date">No. of Travellers</span>
+                            </span>
+                        </div>
+
+                        <div class="col-md-3 th-transport-time pr-0">
+                            <div class="input-group plus-minus-input">
+                                <button type="button" class="input-group-button col-md-4 th-counter-btn-l p-0" data-quantity="minus" data-field="child-popup">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+
+                                <input class="input-group-field th-counter-input col-md-4 px-0 text-center" type="text" name="child-popup" value="0" readonly>
+
+                                <button type="button" class="input-group-button col-md-4 th-counter-btn-r p-0" data-quantity="plus" data-field="child-popup"><i class="fa fa-plus"></i>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Activities Popup end--> 
+
+<!-- Hotel Popup-->
+<div class="modal fade bd-example2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content row shadow-sm p-3 bg-white rounded">
+      <div class="row shadow-sm py-2 bg-white rounded">
+        <div class="col-md-12">
+            <h1 class="th-detailpage-head">Change Hotel &bull; Manali </h1>
+        </div>
+      </div>
+
+        <div class="col-12">
+         <div class="row">
+            <span class="th-detail-card-places col-12 mt-3">
+                Hotels for this package
+            </span>
+        </div>
+
+          <div class="th-detail-budget mt-3 col-12">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2 px-0 mx-0">
+                    <div class="th-detail-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10 my-auto">
+                    <div class="row">
+                        <span class="th-budget-head col-md-10 px-0 text-left">
+                            Honeymoon In Hotel <img src="img/info-bg.svg" class="th-budget-i ml-2">
+                        </span>
+                        <div class="col-md-2 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                <input type="checkbox" checked>
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <span class="th-hotel-card-subhead col-md-9 px-0 pt-1">
+                            Chithirapuram, Munnar
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right pt-2">
+                            +₹105,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+
+                        <span class="th-hotel-card-label px-0 pt-1">
+                            Dates (5 Night)
+                        </span>
+                        <span class="th-hotel-card-value pl-2 pt-1 text-left">26 Aug 2018 - 27 Aug 2018</span>
+                    </div>
+                    <div class="row">
+                       <div class="col-md-4 pl-0">
+                            <span class="th-hotel-card-label px-0 mx-0 mt-1">
+                                Includes 
+                           </span> 
+                            <span class="th-hotel-card-value pl-2 text-left">Breakfast-Dinner</span>
+                       </div>
+                        <div class="col-md-8 pl-0">
+                            <span class="th-hotel-card-label  px-0 mx-0 mt-1">
+                                Room
+                            </span>
+                            <span class="th-hotel-card-value pl-2 text-left">Standard room</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+
+     <div class="col-12">
+     <div class="row">
+        <span class="th-detail-card-places col-12 mt-3">
+            Other options available for hotel
+        </span>
+        </div>
+         <div class="th-detail-budget mt-3 col-12">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2 px-0 mx-0">
+                    <div class="th-detail-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10 my-auto">
+                    <div class="row">
+                        <span class="th-budget-head col-md-10 px-0 text-left">
+                            Honeymoon In Hotel <img src="img/info-bg.svg" class="th-budget-i ml-2">
+                        </span>
+                        <div class="col-md-2 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">select</span>
+                                <input type="checkbox">
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <span class="th-hotel-card-subhead col-md-9 px-0 pt-1">
+                            Chithirapuram, Munnar
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right pt-2">
+                            +₹105,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+
+                        <span class="th-hotel-card-label px-0 pt-1">
+                            Dates (5 Night)
+                        </span>
+                        <span class="th-hotel-card-value pl-2 pt-1 text-left">26 Aug 2018 - 27 Aug 2018</span>
+                    </div>
+                    <div class="row">
+                       <div class="col-md-4 pl-0">
+                            <span class="th-hotel-card-label px-0 mx-0 mt-1">
+                                Includes 
+                           </span> 
+                            <span class="th-hotel-card-value pl-2 text-left">Breakfast-Dinner</span>
+                       </div>
+                        <div class="col-md-8 pl-0">
+                            <span class="th-hotel-card-label  px-0 mx-0 mt-1">
+                                Room
+                            </span>
+                            <span class="th-hotel-card-value pl-2 text-left">Standard room</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <div class="th-detail-budget mt-3 col-12">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                <div class="col-md-2 px-0 mx-0">
+                    <div class="th-detail-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                </div>
+                <div class="col-md-10 my-auto">
+                    <div class="row">
+                        <span class="th-budget-head col-md-10 px-0 text-left">
+                            Honeymoon In Hotel <img src="img/info-bg.svg" class="th-budget-i ml-2">
+                        </span>
+                        <div class="col-md-2 mt-1">
+                            <label class="th-checkbox1"><span class="th-transport-included">select</span>
+                                <input type="checkbox" >
+                                <span class="checkmark1"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <span class="th-hotel-card-subhead col-md-9 px-0 pt-1">
+                            Chithirapuram, Munnar
+                        </span>
+                        <span class="th-budget-head col-md-3 px-0 text-right pt-2">
+                            +₹105,999 <span class="th-detailpage-subhead">per person</span>
+                        </span>
+
+                        <span class="th-hotel-card-label px-0 pt-1">
+                            Dates (5 Night)
+                        </span>
+                        <span class="th-hotel-card-value pl-2 pt-1 text-left">26 Aug 2018 - 27 Aug 2018</span>
+                    </div>
+                    <div class="row">
+                       <div class="col-md-4 pl-0">
+                            <span class="th-hotel-card-label px-0 mx-0 mt-1">
+                                Includes 
+                           </span> 
+                            <span class="th-hotel-card-value pl-2 text-left">Breakfast-Dinner</span>
+                       </div>
+                        <div class="col-md-8 pl-0">
+                            <span class="th-hotel-card-label  px-0 mx-0 mt-1">
+                                Room
+                            </span>
+                            <span class="th-hotel-card-value pl-2 text-left">Standard room</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+  </div>
+</div>
+</div>
+<!-- Hotel Popup end-->
+
+<!-- Selected Hotel Popup-->
+<div class="modal fade bd-example3-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content row shadow-sm p-3 bg-white rounded">
+      <div class="row shadow-sm py-2 bg-white rounded">
+        <div class="col-md-12">
+            <span class="th-goback-btn"><i class="fa fa-arrow-left p-1 th-arrow"></i>Go back to hotel listing</span>
+            <h1 class="th-detailpage-head pl-2 mt-1">Change Hotel &bull; Manali </h1>
+        </div>
+      </div>
+
+        <div class="col-12">
+         <div class="row">
+            <span class="th-detail-card-places col-12 mt-3">
+                Hotels for this package
+            </span>
+        </div>
+          
+          <div class="th-detail-budget mt-3 col-12">
+            <div class="row shadow-sm p-3 bg-white rounded">
+                
+                <div class="slider container  px-0">
+                    <div class="row th-card m-0">
+                       <div class="th-card-body-bestseller">
+                           <div class="th-card-img" style="background-image: url('img/hotel.jpg');">
+                           </div>
+                       </div>
+                   </div>
+                    <div class="row th-card m-0">
+                       <div class="th-card-body-bestseller">
+                           <div class="th-card-img" style="background-image: url('img/hotel.jpg');">
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                    <div class="row">
+                        <span class="th-budget-head col-md-9 px-0 text-left">
+                            Honeymoon In Hotel <img src="img/veg.jpg" class="th-budget-i ml-2"> <span class="th-popup-veg">Veg</span>
+                        </span>
+                        <div class="col-md-3 mt-1">
+                           <div class="row">
+                                <span class="th-hotel-card-label col-6 px-0 mx-0 mt-1">
+                                    Check In 
+                               </span> 
+                               <span class="th-hotel-card-label col-6 pr-0 mt-1 mr-0">
+                                    Check Out 
+                               </span> 
                            </div>
                         </div>
+                    </div>
+                    <div class="row">
+                        <span class="th-hotel-card-subhead col-md-9 px-0">
+                            Chithirapuram, Munnar
+                        </span>
+                        <div class="col-md-3">
+                           <div class="row">
+                                <span class="th-time col-6 px-0 mx-0 mt-1">
+                                    2 PM
+                               </span> 
+                               <span class="th-time col-6 pr-0 mt-1 mr-0">
+                                    11 AM
+                               </span> 
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                       <p class="th-hotel-card-subhead">There are no pets living on the property. Caretaker stays on the property, there are no pets living on the property. Caretaker stays on the property, there are no pets living on the property. Caretaker stays on the property there are no pets living</p>
+                    </div>
+                     <div class="row">
+                       <span class="th-detailpage-head pl-2 mt-3">Amenities</span> 
+                    </div>
+                    <div class="row mt-3">
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/ac.jpg"> AC  
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/child.jpg"> Child Friendly
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/bathtub.jpg"> Bathtub 
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/fitness.jpg"> Fitness Center
+                        </span>
+                     </div>
+                      
+                      <div class="row mt-3">  
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/roomservice.jpg"> Room Service 
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/hottub.jpg"> Hot Tub
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/laundary.jpg"> Laundry Service
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/smokefree.jpg"> Smoke Free
+                        </span>
+                      </div>
+                       
+                       <div class="row mt-3">
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/swimming.jpg"> Swimming Pool
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/spa.jpg"> Spa
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/fireplace.jpg"> Fireplace
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/dinning.jpg"> Dining
+                        </span>
+                      </div> 
+                        
+                       <div class="row mt-3">
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/smokingroom.jpg"> Smoking Rooms 
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/tick.jpg"> AC
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/tick.jpg"> AC
+                        </span>
+                        <span class="col-md-3 th-hotel-card-subhead">
+                           <img class="th-popup-icon mb-1" src="img/tick.jpg"> AC
+                        </span>
+                    </div>
+                    
+                    <div class="row">
+                       <span class="th-detailpage-head pl-2 mt-3">Select Rooms</span> 
+                    </div>
+                    
+                    <div class="th-detail-budget mt-2 col-12">
+                        <div class="row th-trip-itinerary-body py-2 px-1">
+                            <div class="col-md-3">
+                    <div class="th-hotel-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="row mt-2">
+                                    <span class="th-budget-head col-md-7 px-0 text-left">
+                                        Standard Room
+                                    </span>
+                                    <span class="th-popup-price pt-1 col-md-3 px-0 text-right">
+                                        +₹15,999 
+                                    </span>
+                                    <div class="col-md-2 pr-1 mt-1">
+                                        <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark1"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mt-2">
+                                    <span class="th-budget-head col-md-7 px-0 text-left">
+                                        Standard Room with breakfast
+                                    </span>
+                                    <span class="th-popup-price pt-1 col-md-3 px-0 text-right">
+                                        +₹15,999 
+                                    </span>
+                                    <div class="col-md-2 pr-1 mt-1">
+                                        <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                            <input type="checkbox">
+                                            <span class="checkmark1"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mt-2">
+                                    <span class="th-budget-head col-md-7 px-0 text-left">
+                                        Standard Room with breakfast
+                                    </span>
+                                    <span class="th-popup-price pt-1 col-md-3 px-0 text-right">
+                                        +₹15,999 
+                                    </span>
+                                    <div class="col-md-2 pr-1 mt-1">
+                                        <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                            <input type="checkbox">
+                                            <span class="checkmark1"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="th-detail-budget mt-2 col-12">
+                        <div class="row th-trip-itinerary-body py-2 px-1">
+                            <div class="col-md-3">
+                    <div class="th-hotel-popup-img" style="background-image: url('img/detailpagehotel.jpg');"></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="row mt-2">
+                                    <span class="th-budget-head col-md-7 px-0 text-left">
+                                        Standard Room
+                                    </span>
+                                    <span class="th-popup-price pt-1 col-md-3 px-0 text-right">
+                                        +₹15,999 
+                                    </span>
+                                    <div class="col-md-2 pr-1 mt-1">
+                                        <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark1"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mt-2">
+                                    <span class="th-budget-head col-md-7 px-0 text-left">
+                                        Standard Room with breakfast
+                                    </span>
+                                    <span class="th-popup-price pt-1 col-md-3 px-0 text-right">
+                                        +₹15,999 
+                                    </span>
+                                    <div class="col-md-2 pr-1 mt-1">
+                                        <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                            <input type="checkbox">
+                                            <span class="checkmark1"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mt-2">
+                                    <span class="th-budget-head col-md-7 px-0 text-left">
+                                        Standard Room with breakfast
+                                    </span>
+                                    <span class="th-popup-price pt-1 col-md-3 px-0 text-right">
+                                        +₹15,999 
+                                    </span>
+                                    <div class="col-md-2 pr-1 mt-1">
+                                        <label class="th-checkbox1"><span class="th-transport-included">selected</span>
+                                            <input type="checkbox">
+                                            <span class="checkmark1"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+     </div>
+   </div>
+</div>
+<!-- Selected Hotel end-->
+
+<!--POPUP end-->
                     </div>
                 </div>
                 
@@ -2031,7 +2467,7 @@
                         </div>
                     </div>
                     <div class="row mt-4">
-                        <button class="th-change-hotel-btn py-2 px-3 my-auto">Customize</button>
+                        <button class="th-change-hotel-btn py-2 px-3 mx-auto">Customize</button>
                     </div>
                 </div>
 
@@ -2156,8 +2592,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row ml-4 mt-4">
-                        <button class="th-change-hotel-btn py-2 px-3">+Add activities at additional cost</button>
+                    <div class="row mt-4">
+                        <button class="th-change-hotel-btn py-2 px-3 mx-auto">+Add activities at additional cost</button>
                     </div>
                 </div>
 
@@ -2373,5 +2809,12 @@ $(document).ready(function(){
 });
 </script>
 -->
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script src="assets/js/detail.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
 </body>
 </html>
