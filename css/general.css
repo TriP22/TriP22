@@ -1,4 +1,17 @@
 /* GENERAL */
+html{
+    overflow-x: hidden !important;
+}
+body{
+    width: 100%;
+    overflow-x: hidden !important;
+}
+::-webkit-scrollbar {
+    height: 0px !important;
+    width: 0px !important;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 body{
     background-color: #fcfcfd;
 }
@@ -23,6 +36,9 @@ body{
 .th-700{
     font-weight: 700;
 }
+.th-900{
+    font-weight: 900;
+}
 
 /* font-size */
 .th-12{
@@ -43,6 +59,9 @@ body{
 .th-24{
     font-size: 24px;
 }
+.th-48{
+    font-size: 48px;
+}
 
 /* font-color */
 .th-grey{
@@ -56,6 +75,9 @@ body{
 }
 .th-white{
     color: #ffffff !important;
+}
+.th-grey-2{
+    color: rgba(50, 60, 71, 0.58);
 }
 
 /* link */
@@ -156,6 +178,111 @@ body{
     border-radius:3px;
     font-size: 10px;
     color: #3996ff;
+}
+.th-card-type-3 .th-card-ribbon-2{
+    right: 0;
+    margin-top: 16px;
+    margin-right: 16px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+}
+.th-card-type-3 .th-card-ribbon-3{
+    right: 0;
+    top: 170px;
+    margin-right: 16px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+}
+.th-card-type-3 .th-card-ribbon-4{
+    left: 0;
+    top: 170px;
+    margin-left: 16px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+}
+.th-card-type-3 .th-card-ribbon-4{
+    left: 0;
+    top: 170px;
+    margin-left: 16px;
+    height: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:4px 8px;
+    border-radius:3px;
+    font-size: 10px;
+    color: #3996ff;
+}
+.th-dif-level-bar{
+    border-radius: 3px;
+    background-color: #ebedf8;
+    height: 17px;
+}
+.th-dif-level-easy {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eeeeee;
+    text-align: center;
+    width: max-content;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 3px;
+    background-color: #62cf6e;
+}
+.th-dif-level-difficult{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eeeeee;
+    text-align: center;
+    width: max-content;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 3px;
+    background-color: #f84b0f;
 }
 .th-card-type-3 .th-card-data-img{
     background-position: center;
@@ -332,8 +459,18 @@ body{
 
 
 /* HEADER */
-
-
+.th-cat-link{
+    color: #323c47;
+    font-family: 'Lato', sans-serif;
+    font-size: 14PX;
+}
+.th-cat-link:hover{
+    color: #f84b0f;
+    text-decoration: none;
+}
+.th-cat-name{
+    margin-top: 16px;
+}
 
 /* HOMEPAGE */
 /* popular destinations */
@@ -356,6 +493,14 @@ body{
 /* popular activities */
 /* popular trekking */
 /* join us */
+
+.th-btn-book{
+    height: 42px;
+    border-radius: 3px;
+    cursor:pointer;
+    border:none;
+    background: linear-gradient(-90deg, #f84b0f, #ff8a00);
+}
 /* cities */
 .th-box-city-image{
     height: 60px;
@@ -414,4 +559,28 @@ body{
 .th-btn-slider{
     
     line-height: 15px !important;background-color:#fff !important;height:50px !important;width:50px !important;border-radius:50% !important;z-index:1000;margin-left:5px;
+}
+
+/* model */
+.th-modal-width-80 {
+    max-width: 400px;
+    margin-top: 2%;
+}
+.th-icon-white{
+    color: white;
+}
+.th-login-fb{
+    border: none; 
+    border-radius: 3px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+    background-color: #3f5e95;
+}
+.th-login-google{
+    border: none; 
+    border-radius: 3px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+    background-color: #e35c3b;
+}
+.th-login-input{
+    height: 42px;
 }
