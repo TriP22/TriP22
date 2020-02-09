@@ -428,7 +428,7 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-weight: 700;
     background-color: rgb(248,75,15,0.1);
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .th-transport-date{
@@ -653,7 +653,7 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     color: #323c47;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 
