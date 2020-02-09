@@ -421,6 +421,16 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     border-radius: 2px;
 }
 
+.th-orange-bg-btn{
+    color: #f84b0f;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: rgb(248,75,15,0.1);
+    border: none;
+    border-radius: 2px;
+}
+
 .th-transport-date{
     color: #516378;
     font-size: 12px;
@@ -480,7 +490,30 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     border-left: none;
     border-right: none;
     font-size: 12px; 
-    font-weight: 700;
+    font-weight: 900;
+}
+
+.th-pcounter-btn-l{
+    color: #f84b0f;
+    background-color: #fff;
+    font-size: 12px;
+    border: none;
+}
+
+.th-pcounter-btn-r{
+    color: #f84b0f;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+}
+
+.th-pcounter-input{
+    color: #f84b0f;
+    background-color: #fff;
+    font-size: 12px; 
+    font-weight: 900;
+    border: none;
 }
 
 .th-policy{
@@ -616,6 +649,14 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
 
 }
 
+.th-card-price-sm{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #323c47;
+    font-size: 14px;
+
+}
+
 .th-popup-price{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -666,6 +707,8 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-family: 'Lato', sans-serif;
     font-weight: 700; }
 .active{display: block;}
+
+.th-price-data{display: none;}
 
 .th-detail-travel-selector .add-activity{
     color: #f84b0f;
@@ -812,5 +855,15 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
 
 .th-popup-icon{
     height: 20px;
+}
+
+.th-popup-carusol-img
+{
+    background-position: center;
+    background-size: cover;
+    border-radius:5px;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 100%;
 }
 
