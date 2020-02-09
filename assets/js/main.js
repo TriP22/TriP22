@@ -8,8 +8,8 @@ $(document).ready(function(){
     arrows: true,
     infinite:false,
     // variableWidth: true,
-    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:15px;width:15px;"></button>',
-    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:15px;width:15px;"></button>',
+    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
+    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
     responsive: [
       {
         breakpoint: 1024,
@@ -49,8 +49,8 @@ $(document).ready(function(){
     dots:false,
     arrows: true,
     infinite:false,
-    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"></button>',
-    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"></button>',
+    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
+    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
     responsive: [
       {
         breakpoint: 1024,
@@ -90,8 +90,8 @@ $(document).ready(function(){
       dots:false,
       arrows: true,
       infinite:false,
-      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"></button>',
-      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider" ></button>',
+      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
+      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
       responsive: [
         {
           breakpoint: 1024,
@@ -131,8 +131,8 @@ $(document).ready(function(){
       dots:true,
       arrows: false,
       infinite:false,
-      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"></button>',
-      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider" ></button>',
+      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
+      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
       responsive: [
         {
           breakpoint: 1024,
