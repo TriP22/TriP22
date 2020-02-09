@@ -561,6 +561,11 @@ body{
     
     line-height: 15px !important;background-color:#fff !important;height:50px !important;width:50px !important;border-radius:50% !important;z-index:1000;margin-left:5px;
 }
+.th-btn-slider img{
+    height:12px;
+    width:12px;
+}
+
 .th-slider-margin{margin-left:-8px !important;}
 /* model */
 .th-modal-width-80 {
