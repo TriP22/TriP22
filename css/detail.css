@@ -381,6 +381,13 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-weight: 400;
 }
 
+.th-hotel-card-subhead-sm{
+    color: #516378;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
 .th-hotel-card-label{
     color: #516378;
     font-size: 12px;
