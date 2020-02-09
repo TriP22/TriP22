@@ -8,8 +8,8 @@ $(document).ready(function(){
     arrows: true,
     infinite:false,
     // variableWidth: true,
-    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
-    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
+    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg"></button>',
+    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg"></button>',
     responsive: [
       {
         breakpoint: 1024,
@@ -49,8 +49,8 @@ $(document).ready(function(){
     dots:false,
     arrows: true,
     infinite:false,
-    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
-    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
+    nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg"></button>',
+    prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg"></button>',
     responsive: [
       {
         breakpoint: 1024,
@@ -90,8 +90,8 @@ $(document).ready(function(){
       dots:false,
       arrows: true,
       infinite:false,
-      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg" style="height:12px;width:12px;"></button>',
-      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg" style="height:12px;width:12px;"></button>',
+      nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg"></button>',
+      prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg"></button>',
       responsive: [
         {
           breakpoint: 1024,
