@@ -79,6 +79,9 @@ body{
 .th-grey-2{
     color: rgba(50, 60, 71, 0.58);
 }
+.th-black-1{
+    color: #222222;
+}
 
 /* link */
 .th-link-1 :hover{

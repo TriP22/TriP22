@@ -266,41 +266,6 @@
   padding-right: 20px;
 }
 
-.Select-your-travel-d {
-  width: 141px;
-  height: 17px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #516378;
-}
-
-.marg{
-
-  /* margin-left: 24px ; */
-  margin-top: 30px;
-  
-}
-
-.filterby{
-  /* margin-left: 24px ; */
-  margin-top: 21px;
-  width: 85px;
-  height: 23px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: #222222;
-}
-
 .padt{
   margin-top: 30px;
 }
@@ -418,9 +383,6 @@
 .th-line-height-1{
   line-height:1rem;
 }
-.th-black-1{
-  color: #222222;
-}
 .th-travel-date{
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -448,7 +410,11 @@
   background-repeat: no-repeat;
   border-radius: 4.5px;
 }
+.th-hov-orange{
+  border:solid 2px white;
+  background-color: white;
+}
 .th-hov-orange:hover{
   border: solid 2px rgba(248, 75, 15, 0.24);
-  background-color: rgba(248, 75, 15, 0.24);
+  background-color: rgba(248, 75, 15, 0.06);
 }
