@@ -92,7 +92,15 @@ body{
 .th-opacity-84{
     opacity: 0.84;
 }
-
+/* button */
+button:focus{
+    outline: none;
+    box-shadow: none !important;
+}
+button:active{
+    outline: none;
+    box-shadow: none !important;
+}
 /* CARDS */
 .th-card{
     display: flex;
