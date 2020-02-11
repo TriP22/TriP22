@@ -413,14 +413,42 @@
 
 
 
+/* listing */
 
-  
-
-
-
-
-  
-
-
-  
-  
+.th-line-height-1{
+  line-height:1rem;
+}
+.th-black-1{
+  color: #222222;
+}
+.th-travel-date{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8a9bad;
+  border-radius: 3px;
+  border: solid 0.8px #ebedf8;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.th-travel-des{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8a9bad;
+  border-radius: 3px;
+  border: solid 0.8px #ebedf8;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.th-listing-image{
+  max-height: 175px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4.5px;
+}
+.th-hov-orange:hover{
+  border: solid 2px rgba(248, 75, 15, 0.24);
+  background-color: rgba(248, 75, 15, 0.24);
+}
