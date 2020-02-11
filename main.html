@@ -417,15 +417,15 @@
                         <div class="col-md-4 my-auto">
                             <div class="row">
                                 <img class="img-fluid col-md-1  pr-0" src="img/filled.svg" >
-                                <span class="info-detail col-md-11" id="date-select">26 Aug’18 - 27 Aug’18</span>
+                                <span class="info-detail col-md-11" id="date-select">26 Aug’18</span>
+                            </div>
+                            <div class="row text-center th-date-bar shadow" style="position:absolute;background-color:#fff;z-index:1000;width:100%;border-radius:5px;">
+                                <div class="search-date1"></div>
                             </div>
                         </div>
                         <div class="col-md-4 my-auto ">
                             <button type="submit" class="btn th-btn col-md-12">Explore Packages</button>
                         </div>
-                    </div>
-                    <div class="row text-center th-date-bar shadow-sm" style="position:absolute;background-color:#fff;z-index:1000;width:100%;">
-                                <div class="search-date1"></div>
                     </div>
                 </div>
             </div>
@@ -2019,9 +2019,10 @@
                     <h5 class="th-lato th-24 th-bold th-black">JOIN US ON FIXED DEPARTURE TO GET THE BEST VALUE</h5>
                     <p class="th-lato th-18 th-bold th-black th-link-1">88 Trips running now &nbsp;   <a href="#" class="th-lato th-18 th-orange">View All</a></p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 my-auto py-3" style="border:1px solid #ebedf8;border-radius:5px;">
                     <div class="row">
-                        <input type="date" name="" id="">
+                        <img class="img-fluid col-md-2 col-xs-2 pr-0" src="img/filled.svg" >
+                        <input class="col-md-10 col-xs-10" type="text" id="datepicker" style="border:none;">
                     </div>
                 </div>
             </div>
@@ -2338,7 +2339,7 @@
 
 
         <!-- copyright -->
-        <div class="container-fluid">
+        <div class="container-fluid py-2">
             <p class="th-lato th-14 th-grey text-center mb-0">&copy; 2020 Glacial Adventures (INDIA) Pvt. Ltd  |  Designed by Trixno</p> 
         </div>
         <!-- //copyright -->
@@ -2457,7 +2458,8 @@
               todayHighlight: true,
               autoclose: true,
               maxViewMode: 0,
-              startDate: "now"
+              startDate: "now",
+              maxDate: "+1m +1w",
           });
         </script>
         <script>
@@ -2466,13 +2468,32 @@
               todayHighlight: true,
               toggleActive: true,
               startDate: "now",
+              maxDate: "+1m +1w",
               maxViewMode: 2,
               defaultViewDate:"now",
+              defaultDate: +7
           });
         </script>
         <script>
            $('#date-select').on('click', function () {
                 $('.th-date-bar').toggleClass('active');});
+        </script>
+        <script>
+            $( function() {
+                $( "#datepicker" ).datepicker(
+                    {
+                        format: "dd M yyyy",
+                        todayHighlight: true,
+                        autoclose: true,
+                        startDate: "now",
+                        defaultDate: "now",
+                        maxDate: "+1Y",
+                        setDate:"+1mm"
+                    }
+                );
+                $("#datepicker").datepicker().datepicker("setDate", new Date());
+                $("#datepicker").datepicker({ minDate: -0, maxDate: "+1Y" });
+            } );
         </script>
     </body>
 </html>

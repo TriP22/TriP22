@@ -71,15 +71,19 @@
 
 .th-select{
     width: 100%;
-    border:none;
+    border:none !important;
+}
+select:focus{outline: none !important;}
+option {
+    padding:15px 15px !important;
+    font-size: 16px;
+    line-height: 20px;
 }
 option:checked{
-    background:#000 !important;
-    color: #fff !important;
+    background:#ebedf8 !important;
   }
   option:hover {
-    background:#000 !important;
-    color: #fff !important;
+    background:#ebedf8 !important;
   }
 
 .th-date-bar{display: none;}

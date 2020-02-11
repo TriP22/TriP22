@@ -162,6 +162,7 @@ fieldset[disabled] .datepicker table tr td.highlighted.focus {
   color: #777777;
 }
 .datepicker table tr td.today {
+  border-radius: 5px;
   color: #000;
   background-color: #ffdb99;
   border-color: #ffb733;
@@ -458,6 +459,7 @@ fieldset[disabled] .datepicker table tr td.selected.highlighted.focus {
 .datepicker table tr td.active.highlighted:active,
 .datepicker table tr td.active.active,
 .datepicker table tr td.active.highlighted.active {
+  border-radius: 5px;
   color: #fff;
   background-color: #f84b0f;
   border-color: #f84b0f;
