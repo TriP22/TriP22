@@ -599,10 +599,3 @@ body{
 .dropdown-toggle::after{
 
     content : none;}
-
-
-/* listing */
-
-.th-line-height-1{
-    line-height:1rem;
-}
