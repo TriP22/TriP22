@@ -30,6 +30,8 @@
         <!-- icons -->
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
+
+  <link href="slider/jquery-ui.css" rel="stylesheet">
         <title>Glacial Adventures</title>
     </head>
     <body>
@@ -407,47 +409,47 @@
         <div class="row shadow-sm py-3 bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 my-auto">
+                    <div class="col-md-8 my-auto">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <div class="row">
-                                    <div class="col-3 pl-0">
+                                    <div class="col-md-3 pl-0">
                                         <img src="img/listing/image-1.svg" alt="" class="img-fluid">
                                     </div>
-                                    <div class="col-9 pl-0 my-auto">
+                                    <div class="col-md-9 pl-0 my-auto">
                                         <p class="th-roboto th-grey th-14 m-0 th-line-height-1">10+ Years In Professional Travel Management</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <div class="row">
-                                    <div class="col-3 pl-0">
+                                    <div class="col-md-3 pl-0">
                                         <img src="img/listing/image-1.svg" alt="" class="img-fluid">
                                     </div>
-                                    <div class="col-9 pl-0 my-auto">
+                                    <div class="col-md-9 pl-0 my-auto">
                                         <p class="th-roboto th-grey th-14 m-0 th-line-height-1">10000+ Happy customers and counting</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4">
                                 <div class="row">
-                                    <div class="col-3 pl-0">
+                                    <div class="col-md-3 pl-0">
                                         <img src="img/listing/image-1.svg" alt="" class="img-fluid">
                                     </div>
-                                    <div class="col-9 pl-0 my-auto">
+                                    <div class="col-md-9 pl-0 my-auto">
                                         <p class="th-roboto th-grey th-14 m-0 th-line-height-1">125+ Trained Professionals to cater to you</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-1"></div>
-                    <div class="col-3">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3">
                         <div class="row">
-                            <div class="col-3 pl-0">
+                            <div class="col-md-3 pl-0">
                                 <img src="img/bitmap.png" alt="" class="img-fluid">
                             </div>
-                            <div class="col-9 pl-0 my-auto">
+                            <div class="col-md-9 pl-0 my-auto">
                                 <p class="th-roboto th-grey th-12 m-0"> Your trip advisior: <b>Ankita Singh</b>
                                 <br><span class="th-14">9582886846</span></p>
                             </div>
@@ -461,115 +463,123 @@
         <!-- list -->
         <div class="container mt-5">
             <div class="row">
-                <div class="col-lg-3 p-0">
-                    <div class="col-lg-12 rounded shadow-sm bg-white p-4">
-                        <div class="row">
-                            <p class="th-lato th-bold th-18 th-black-1 col-md-12 mt-0">FILTER BY</p>
-                        </div>  
-                        <div class="row">
-                            <span class="th-lato th-14 th-bold th-grey col-md-12">Select your travel date</span>
+                <div class="col-md-3 p-0">
+                    <div class="col-md-12 rounded shadow-sm bg-white p-4">
+                        <p class="th-lato th-bold th-18 th-black-1 mt-0 mb-4">FILTER BY</p>
+                        <p class="th-lato th-14 th-bold th-grey mb-2">Select your travel date</p>
+                        <div class="col-md-12 p-0 mb-4">
+                            <input class="th-date-pick w-100 th-lato th-14 th-light-grey p-2" type="date" name="" id="">
+                        </div>
+                        <p class="th-lato th-14 th-bold th-grey mb-2">Select your travel destination</p>
+                        <div class="col-md-12 p-0 mb-4">
+                            <select class="th-date-pick w-100 th-lato th-14 th-light-grey p-2" name="" id="">
+                                <option value="">Kerala</option> 
+                                <option value="">Jamalpur</option>
+                                <option value="">Jaipur</option>
+                                <option value="">Nagpur</option>
+                            </select>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
-                                <input class="lefttraveldate Rectangle-12-Copy" type="date" name="" id="">
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox">
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Alleppey</span>
+                                    <span class="checkmark1"></span>
+                                </label>
+                            </div>
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" checked>
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Alleppey</span>
+                                    <span class="checkmark1"></span>
+                                </label>
+                            </div>
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" >
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Alleppey</span>
+                                    <span class="checkmark1"></span>
+                                </label>
+                            </div>
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" >
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Alleppey</span>
+                                    <span class="checkmark1"></span>
+                                </label>
+                            </div>
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" >
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Alleppey</span>
+                                    <span class="checkmark1"></span>
+                                </label>
                             </div>
                         </div>
-                        <div class="row">
-                            <span class="th-lato th-14 th-bold th-grey col-md-12 py-4"> Select your travel destination</span>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <select class="Kerla Rectangle-12-Copy" name="" id="">
-                                    <option value="">Kerala</option> 
-                                    <option value="">Jamalpur</option>
-                                    <option value="">Jaipur</option>
-                                    <option value="">Nagpur</option>
-                                </select>
-                            </div>
-                        </div>
+                        <p class="th-lato th-14 th-bold th-grey mt-4 mb-2">Duration</p>
+                        <div id="slider-range"></div>
                         <div class="row py-2">
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Alleppey</span class="checkboxfonts"> 
-                            </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Munnar</span> 
-                            </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Kumarakom</span> 
-                            </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Wayanad</span> 
-                            </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Alleppey</span> 
-                            </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Thekkady</span> 
-                            </div>
-                        
+                            <input class="col-md-6 th-lato th-12 th-light-grey" type="text" id="amount" readonly style="border:0;">
+                            <input class="col-md-6  th-lato th-12 th-light-grey text-right" type="text" id="amount1" readonly style="border:0;">
                         </div>
-                        <div class="row">
-                            <span class="th-lato th-14 th-bold th-grey col-md-12 py-4">Duration</span>
+                        <p class="th-lato th-14 th-bold th-grey mt-4 mb-2">Price</p>
+                        <div id="slider-range-price"></div>
+                        <div class="row py-2">
+                            <input class="col-md-6 th-lato th-12 th-light-grey" type="text" id="min-amount" readonly style="border:0;">
+                            <input class="col-md-6  th-lato th-12 th-light-grey text-right" type="text" id="max-amount" readonly style="border:0;">
                         </div>
-                        <div class="row">
-
-                            <div class="slidecontainer col-12">
-                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                            </div>
-                        
-                        </div>
-                        <div class="row">
-                            <span class="Days col-md-6 py-2">1Night/2Days</span>
-                            <span class="Days col-md-6 py-2 d-flex justify-content-end">9Night/10Days</span>
 
 
-                        </div>
+                        <p class="th-lato th-14 th-bold th-grey mt-4 mb-2">Choose Your Holiday Theme</p>
                         <div class="row">
-                            <span class="th-lato th-14 th-bold th-grey col-md-12 py-4">Price</span>
-                        </div>
-                        <div class="row">
-
-                            <div class="slidecontainer col-12">
-                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox">
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Honeymoon</span>
+                                    <span class="checkmark1"></span>
+                                </label>
                             </div>
-                        
-                        </div>
-                        <div class="row">
-                            <span class="Days col-md-6 py-2">₹1,000</span>
-                            <span class="Days col-md-6 py-2 d-flex justify-content-end">₹55,000</span>
-                        </div>
-                        <div class="row">
-                            <span class="th-lato th-14 th-bold th-grey col-md-12 py-4">Choose Your Holiday Theme</span>
-                        </div>
-                        <div class="row py-1">
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Honeymoon</span class="checkboxfonts"> 
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" checked>
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Holiday Package</span>
+                                    <span class="checkmark1"></span>
+                                </label>
                             </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Holiday Package</span> 
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" >
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Beach</span>
+                                    <span class="checkmark1"></span>
+                                </label>
                             </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Beach</span> 
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" >
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Pilgrimage</span>
+                                    <span class="checkmark1"></span>
+                                </label>
                             </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Pilgrimage</span> 
-                            </div>
-                            <div class="col-12">
-                                <input class="Alleppey col-12" type="checkbox" name="" value=""><span class="checkboxfonts">Group Tour</span> 
+                            <div class="col-md-12 my-2">
+                                <label class="th-checkbox1">
+                                    <input type="checkbox" >
+                                    <span class="th-checked th-lato th-14 th-grey pl-2">Group Tour</span>
+                                    <span class="checkmark1"></span>
+                                </label>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-9 pl-5 pr-0">
-                    <div class="col-12 rounded shadow-sm bg-white p-4 mb-4">
+                <div class="col-md-9 pl-5 pr-0">
+                    <div class="col-md-12 rounded shadow-sm bg-white p-4 mb-4">
                         <div class="row ">
-                            <div class="col-4 my-auto">
+                            <div class="col-md-4 my-auto">
                                 <div class="row">
-                                    <span class="Travel-Date col-lg-4">Travel Date</span> <input class="Aug-2020 col-lg-8" type="date" name="traveldate">
+                                    <span class="Travel-Date col-md-lg-4">Travel Date</span> <input class="Aug-2020 col-lg-8" type="date" name="traveldate">
                                 </div>
                             </div>
-                            <div class="col-4 my-auto">
+                            <div class="col-md-4 my-auto">
                                 <span class="No-of-Travellers">No. of Travellers</span>
                                 <select class="Aug-2020" name="Adults" id="">
                                     <option value="">Adult 1</option> 
@@ -581,7 +591,7 @@
                                     <option value="">Adults 7</option>
                                 </select>
                             </div>
-                            <div class="col-4  my-auto text-right">
+                            <div class="col-md-4  my-auto text-right">
                                 <span class="No-of-Travellers">Short By:</span>
                                 <select class="Aug-2020 Short-by-Popularity .text-style-1 " name="Shortby" id="">
                                     <option  value="">Popoularity</option> 
@@ -592,12 +602,12 @@
                         </div>
                     </div>
 
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1490717272203-9648e4e6c0e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -620,7 +630,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -640,12 +650,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1457887192248-8aef8ac8c99e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -668,7 +678,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -688,12 +698,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1521651000640-f7b2cb02ffb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -716,7 +726,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -736,12 +746,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1481889617387-82a8f2413b6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -764,7 +774,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -784,12 +794,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1500347006750-84d2647711eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -812,7 +822,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -832,12 +842,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1464022799170-1bd95b3e6b58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1057&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -860,7 +870,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -880,12 +890,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1491659240298-b95d29bfb242?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -908,7 +918,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -928,12 +938,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="th-hov-orange col-12 rounded shadow-sm p-4 mt-4">
+                    <div class="th-hov-orange col-md-12 rounded shadow-sm p-4 mt-4">
                         <div class="row p-0 m-0">
-                            <div class="col-lg-4 pr-4">
+                            <div class="col-md-4 pr-4">
                                 <span class="listing-image row h-100" style="background-image:url('https://images.unsplash.com/photo-1481581604743-656bc9c308cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');"></span>
                             </div>
-                            <div class="col-lg-6 pl-3">
+                            <div class="col-md-6 pl-3">
                                     <div class="col-md-12 px-0 text-truncate">
                                         <span  class="tag th-lato th-12 mr-1">Starting From: Delhi</span >
                                         <span  class="tag th-lato th-12 mr-1">Couple Friendly</span>
@@ -956,7 +966,7 @@
                                         </span>
                                     </div>
                             </div>
-                            <div class="col-lg-2 px-0 text-right">
+                            <div class="col-md-2 px-0 text-right">
                                 <div class="col-md-12  px-0">
                                     <span class="off th-lato th-12">25% off</span>
                                 </div>
@@ -1098,11 +1108,11 @@
                     </div>
                     <form>
                         <div class="p-4">
-                            <button class="th-login-fb col-12 p-2 mt-3">
+                            <button class="th-login-fb col-md-12 p-2 mt-3">
                                 <i class="lab la-facebook-f th-icon-white px-3"></i>
                                 <spun class="th-lato th-14 th-white">Login with Facebook</spun> 
                             </button>
-                            <button class="th-login-google col-12 p-2 mt-3">
+                            <button class="th-login-google col-md-12 p-2 mt-3">
                                 <i class="lab la-google th-icon-white px-3"></i>
                                 <spun class="th-lato th-14 th-white">Login with Google</spun> 
                             </button>
@@ -1138,11 +1148,11 @@
                     </div>
                     <form>
                         <div class="p-4">
-                            <button class="th-login-fb col-12 p-2 mt-3">
+                            <button class="th-login-fb col-md-12 p-2 mt-3">
                                 <i class="lab la-facebook-f th-icon-white px-3"></i>
                                 <spun class="th-lato th-14 th-white">Login with Facebook</spun> 
                             </button>
-                            <button class="th-login-google col-12 p-2 mt-3">
+                            <button class="th-login-google col-md-12 p-2 mt-3">
                                 <i class="lab la-google th-icon-white px-3"></i>
                                 <spun class="th-lato th-14 th-white">Login with Google</spun> 
                             </button>
@@ -1188,6 +1198,7 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="assets/slick/slick.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/listing.js"></script>
         <script src="assets/js/bootstrap-datepicker.min.js"></script>
 
         <script type="text/javascript">
@@ -1212,6 +1223,15 @@
         <script>
            $('#date-select').on('click', function () {
                 $('.th-date-bar').toggleClass('active');});
+        </script>
+        <script src="slider/jquery-ui.js"></script>
+        <script>
+        
+                $( "#slider" ).slider({
+                    range: true,
+                    values: [ 17, 67 ]
+                });
+        
         </script>
     </body>
 </html>

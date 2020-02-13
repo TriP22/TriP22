@@ -82,6 +82,9 @@ body{
 .th-black-1{
     color: #222222;
 }
+.th-light-grey{
+    color: #8a9bad;
+}
 
 /* link */
 .th-link-1 :hover{
