@@ -427,6 +427,16 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     text-transform: uppercase;
     border-radius: 2px;
 }
+.th-change-hotel-btn-lg{
+    color: #f84b0f;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: rgb(248,75,15,0.1);
+    border: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
 
 .th-orange-bg-btn{
     color: #f84b0f;
@@ -873,4 +883,60 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     height: 280px;
     width: 100%;
 }
+
+.th-form-textarea{
+    color: #8a9bad;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+textarea:focus{ box-shadow:none !important;}
+
+.th-tour-package{
+    color: #323c47;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.th-tour-city{
+    color: #516378;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+
+.th-paymentpage-label{
+    color: #8a9bad;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+.th-paymentpage-value{
+    color: #323c47;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400; 
+}
+
+.th-form-head{
+    color:#323c47;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    display: block;
+}
+
+.th-form-subhead{
+    color:#8a9bad;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    display: block;
+}
+
+
 
