@@ -1,0 +1,161 @@
+.th-btn-blue {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border: solid 1px #3996ff;
+    background-color: #3996ff;
+}
+.th-input-blue{
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: solid 1px #8a9bad;
+    background-color: #ffffff;
+}
+.th-radio-btn{
+    width: 15px;
+    height: 15px;
+}
+.th-line-height-1{
+    line-height: 1.25;
+}
+.th-radio-btn-1{
+    width: 24px;
+    height: 24px;
+    background-color: #8a9bad;
+}
+.th-payment-orange{
+    border-radius: .25rem!important;
+    border: solid 4px #ffffff;
+    background-color: rgba(248, 75, 15, 0.06);
+}
+/* th-radio-2 */
+.th-radio-2 {
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .th-radio-2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .th-checkmark-2 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color:none;
+    border-radius: 50%;
+    border: solid 2px #8a9bad;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .th-radio-2:hover input ~ .th-checkmark-2 {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .th-radio-2 input:checked ~ .th-checkmark-2 {
+    background-color: #f84b0f;
+    border: none;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .th-checkmark-2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .th-radio-2 input:checked ~ .th-checkmark-2:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .th-radio-2 .th-checkmark-2:after {
+       top: 5px;
+      left: 5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: white;
+  }
+
+/* _______________________ */
+
+
+/* th-radio-1 */
+.th-radio-1 {
+    padding-right: 30px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* Hide the browser's default radio button */
+.th-radio-1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+/* Create a custom radio button */
+.th-checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 24px;
+    width: 24px;
+    background-color:none;
+    border-radius: 50%;
+    border: solid 2px #8a9bad;
+}
+  
+/* On mouse-over, add a grey background color */
+.th-radio-1:hover input ~ .th-checkmark {
+    background-color: #ccc;
+}
+  
+/* When the radio button is checked, add a orange background */
+.th-radio-1 input:checked ~ .th-checkmark {
+    background-color: #f84b0f;
+    border: none;
+}
+  
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.th-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the indicator (dot/circle) when checked */
+.th-radio-1 input:checked ~ .th-checkmark:after {
+    display: block;
+}
+  
+/* Style the indicator (dot/circle) */
+.th-radio-1 .th-checkmark:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
