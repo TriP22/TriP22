@@ -938,5 +938,22 @@ textarea:focus{ box-shadow:none !important;}
     display: block;
 }
 
+.th-form-label{
+    color:#516378;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    display: block;
+}
+
+.th-form-input{
+    color:#8a9bad;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+    display: block;
+    border: 1px solid #8a9bad;
+}
+
 
 
