@@ -187,6 +187,14 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-family: 'Lato', sans-serif;
     font-weight: 700; 
 }
+
+.th-white-package-price{
+    color:#fff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+}
+
 .th-budget-pack-cost-strike{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -355,6 +363,14 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #516378;
+    font-size: 12px;
+
+}
+
+.th-card-perperson-white{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
     font-size: 12px;
 
 }
@@ -813,6 +829,21 @@ button:focus, button:active,input:focus{box-shadow:none !important;outline:none;
     color: #fff;
 }
 
+.th-white-color-btn{
+  border:none;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 20px;
+  color:#f84b0f;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.th-white-color-btn:hover{
+    color: #f84b0f;
+}
+
 .th-bordered-btn{
   border: solid 1.5px #f84b0f;
   font-family: 'Lato', sans-serif;
@@ -954,6 +985,25 @@ textarea:focus{ box-shadow:none !important;}
     display: block;
     border: 1px solid #8a9bad;
 }
+.th-grey-bg{
+    background-color:rgba(255,255,255, 0.18);
+    border-radius: 6px;
+}
 
+.th-travel-label{
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.th-travel-option{
+    color: #f84b0f;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+    z-index: 10000;
+}
 
 

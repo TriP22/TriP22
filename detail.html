@@ -24,7 +24,7 @@
 
 <body>
 
-<div class="th-nav row fixed-top shadow-sm">
+    <div class="th-nav row fixed-top shadow-sm">
         <nav class="navbar container navbar-expand-lg navbar-light bg-light">
              <a class="navbar-brand " href="#">
                 <img src="https://glacialadventures.net/images/2494_logo.jpg" width="auto" height="40" class="d-inline-block align-top" alt="">
@@ -264,10 +264,74 @@
             </div>
         </nav>
     </div>
+    
+    <nav class="navbar mt-5 pt-4" id="navbarCollapse" style="background-color: #4565ae">
+         <div class="container px-0">
+         
+          <div class="col-md-4 th-grey-bg py-1">
+            <div class="row px-0">
+                <div class="col-6">
+                    <span class="th-travel-label">Starting from</span>
+                </div>
+                <div class="col-6">
+                    <span class="th-travel-label">Travelling on</span>
+                </div>
+            </div>
+            <div class="row px-0">
+                <div class="col-6 ">
+                    <span class="th-travel-option p-0 m-0">Chandigarh<i class="fa fa-angle-down th-dark-icon px-1"></i></span>
+                </div>
+                <div class="col-6">
+                    <span class="th-travel-option" >Tue, 26 Aug 2018<i class="fa fa-angle-down th-dark-icon px-1"></i></span>
+                </div>
+            </div>  
+          </div>
+          
+          <div class="col-md-2 th-grey-bg ml-1 py-1">
+            <div class="row px-0">
+                <div class="col-12">
+                    <span class="th-travel-label">No. of Travellers</span>
+                </div>
+            </div>
+            <div class="row px-0">
+                <div class="col-12">
+                    <span class="th-travel-option p-0 m-0">2 Room, Adults, 1 Child<i class="fa fa-angle-down th-dark-icon"></i></span>
+                </div>
+            </div>  
+          </div>
+          
+          
+          <div class="col-md-2">
+            <div class="row px-0">
+                <div class="col-12">
+                    <span class="th-travel-label">Price</span>
+                </div>
+            </div>
+            <div class="row px-0">
+                <div class="col-12">
+                    <span class="th-travel-option p-0 m-0">
+                    <span class="th-white-package-price">₹105,999</span><span class="th-card-perperson-white px-1">per person</span> </span>
+                </div>
+            </div>  
+          </div>
+          
+                    
+          <div class="col-md-3">
+              <div class="row px-0">
+                  <div class="col-md-6">
+                      <a href="#" class="btn th-white-color-btn py-2 float-right col-md-12">Enquire Now</a>
+                  </div>
+                  <div class="col-md-6">
+                      <a href="#" class="btn th-color-btn py-2 float-right col-md-12">Book Now</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </nav>
     <!--header-->
 
      <!--Content-->
-    <div class="container mt-5 pt-4">
+    <div class="container mt-5">
         <div class="row mt-4">
             <div class="col-md-8 th-detail-right-padding">
                 <div class="row shadow-sm p-3 bg-white rounded">
@@ -2721,7 +2785,6 @@
                         <button class="th-change-hotel-btn py-2 px-3 mx-auto">+Add activities at additional cost</button>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -2903,6 +2966,21 @@
           $('#myInput').trigger('focus')
         })    
     </script>
+    
+    
+<script>
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 800) {
+       $('.navbar').addClass('nav-change');
+        $('.nav-link').addClass('nav-link-change');
+    }else {
+       $('.navbar').removeClass('nav-change');
+       $('.nav-link').removeClass('nav-link-change');
+    }
+  });
+</script>
     
 <!--
     <script>
