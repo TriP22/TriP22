@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #091037;
+    text-align: left;
+    background-color: #fff;
+}
+.th-col-wh{color: #fff}
+.th-col-blue{color: #091037;}
+.th-font-weight-900{font-weight: 900}
+.th-font-weight-700{font-weight: 700}
+.th-font-16{font-size: 1.6rem;}
+.th-font-14{font-size: 1.4rem;}
+.th-font-24{font-size: 2.4rem}
+.th-font-18{font-size: 1.8rem}
+.bg-lt-blue{background-color: #C1EFF6}
+
+.bg-image
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}
+.input-group-text {
+    
+    background-color: #ffffff;
+     border: 0px solid #ced4da;
+     padding: 1.375rem 1.75rem;
+     border-radius: .85rem; 
+}
+.form-control {
+    
+    border: 1px solid #ffffff;
+    border-radius: .85rem;
+    height: calc(1.5em + 2.75rem + 2px);
+}
+.th-lg-btn{
+	background-color: #091037;
+    border-radius: .85rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border:none;
+}
+.th-icon{color:#424869;font-size: 1.5em !important;}
+.th-call-us {
+  background-color: #fff;
+  border: none;
+  color: #091037;
+  padding: 18px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: -35px 10px 10px 10px;
+  border-radius: .85rem;
+  box-shadow: 2px 3px 3px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19); 
+}
+.th-card {
+  background-color: #fff;
+  border: none;
+  color: #091037;
+  padding: 2rem 1.4rem;
+  margin: 1rem;
+  /*text-align: center;*/
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  border-radius: .85rem;
+  box-shadow: 2px 3px 3px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19); 
+}
+.th-icon-text{
+	padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.th-mx-0{
+	margin:0;
+}
+:focus{outline: none !important }
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ input:focus {
+    -webkit-appearance: none;
+}
+
+input:hover {
+    -webkit-appearance: none;
+}
