@@ -8,6 +8,10 @@ body {
     text-align: left;
     background-color: #fff;
 }
+.padding-form{padding: 3rem !important;}
+@media only screen and (max-width: 600px) {
+  .padding-form{padding: 1rem !important;}
+}
 .th-col-wh{color: #fff}
 .th-col-blue{color: #091037;}
 .th-font-weight-900{font-weight: 900}
